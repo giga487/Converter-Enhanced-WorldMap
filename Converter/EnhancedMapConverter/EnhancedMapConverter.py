@@ -34,9 +34,6 @@ class FileToRead:
 applicationPath = os.getcwd()
 folderToAnalyze = "Definition"
 
-
-
-
 def main():
 
     fileList = os.listdir(os.path.join(applicationPath,folderToAnalyze))
