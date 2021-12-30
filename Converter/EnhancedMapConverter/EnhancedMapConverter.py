@@ -11,6 +11,7 @@ class StringRead:
 
         self.m_stringToSplit = _stringToSplit
         self.m_pathfile = _file
+        self.m_stringToSave = ""
         self.EncapsuleData()
 
     def GetString(self):
@@ -53,8 +54,13 @@ class StringRead:
            
 class FileWriter:
 
-    def __init__(self, _pathFiles: str, ):
-        print("BOH")
+    @staticmethod
+    def __init__(_pathFiles: str, listOfRow):
+      
+        f = open(_pathFiles, 'w+')
+
+        for row in listOfRow:
+            f.writelines(row+'\n')
 
 
 
@@ -88,14 +94,17 @@ class FileToRead:
     def GetString(self):
 
         m_list = []
-        for line in self.m_listLine:
-            m_list.append(line.GetString())
+
+        if(self.m_listLine != []):
+            for line in self.m_listLine:
+                m_list.append(line.GetString())
     
         return m_list
 
 
 applicationPath = os.getcwd()
 folderToAnalyze = "Definitions"
+fileToCreate = "UOMARS.csv"
 
 def main():
     print("Welcome to the enhanced map Converter by Giga487")
@@ -111,7 +120,12 @@ def main():
         listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
     for listFileToWrite in listFile:
-        textOnFileToWrite.append(listFileToWrite.GetString())
+        if(listFileToWrite.GetString() != []):
+
+            for row in listFileToWrite.GetString():
+                textOnFileToWrite.append(row)
+
+    FileWriter(os.path.join(applicationPath, fileToCreate), textOnFileToWrite)
 
     text = input("")
 
