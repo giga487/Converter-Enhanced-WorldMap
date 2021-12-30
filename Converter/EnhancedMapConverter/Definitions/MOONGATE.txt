@@ -1,2 +1,0 @@
-+	Entrata Uscita LostLand	5436	3384	1	false
-+	Entrata Uscita LostLand	5594	3197	1	false

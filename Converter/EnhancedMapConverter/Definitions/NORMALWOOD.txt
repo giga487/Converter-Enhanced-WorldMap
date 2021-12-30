@@ -1,8 +1,0 @@
-+	WoodNeutral NE	3515	3070	0	false
-+	WoodNeutral NW	2500	3035	0	false
-+	WoodOrder SE	2500	2095	0	false
-+	WoodMurderer S	3300	1135	0	false
-+	WoodChaos West	3745	2456	0	false
-+	WoodOrder NE	2315	1505	0	false
-+	Wood Bridge N	2571	1235	0	false
-+	WoodChaos NE	3875	1515	0	false

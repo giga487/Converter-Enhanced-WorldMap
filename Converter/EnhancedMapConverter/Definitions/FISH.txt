@@ -1,5 +1,0 @@
-+	Neutral Lake	3280	3100	0	false
-+	Order River North	2677	1464	0	false
-+	Murderer Bay	4229	1108	0	false
-+	Order NW Bay	1951	1342	0	false
-+	LeWorker North Bay	2880	2213	0	false

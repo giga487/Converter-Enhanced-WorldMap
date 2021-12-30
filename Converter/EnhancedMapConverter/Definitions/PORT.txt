@@ -1,4 +1,0 @@
-+	OrderCity Port	1855	1998	0	false
-+	ChaosCity Port	4298	2336	0	false
-+	MurdererCity Port	3549	595	0	false
-+	Pryma Port	3013	3850	0	false

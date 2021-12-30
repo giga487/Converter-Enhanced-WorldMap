@@ -1,8 +1,0 @@
-+	Le Worker Cotton Depo	3085	2653	0	false
-+	S-E Order Cotton Depo	2405	2387	0	false
-+	N-O Order Cotton Depo	2306	1442	0	false
-+	Ovest PK Cotton Depo	3023	1192	0	false
-+	Est PK Cotton Depo	3545	1141	0	false
-+	Est PK Cotton Depo	3545	1141	0	false
-+	N-O Chaos Cotton Depo	3761	1497	0	false
-+	S-E Chaos Cotton Depo	3541	2437	0	false

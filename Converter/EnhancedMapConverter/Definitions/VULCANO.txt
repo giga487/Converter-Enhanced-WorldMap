@@ -1,5 +1,0 @@
-+	Vulcano	3173	1822	0	false
-+	Pryma Enter	3074	2136	0	false
-+	Order Enter	2868	1784	0	false
-+	Chaos Enter	3459	1615	0	false
-+	Murderer Enter	3189	1489	0	false

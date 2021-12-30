@@ -1,7 +1,0 @@
-+	OrderCity IngressoNord	2084	1886	0	false
-+	OrderCity IngressoSud	2085	1886	0	false
-+	ChaosCity IngressoNord	4100	2065	0	false
-+	ChaosCity IngressoSud	4098	2171	0	false
-+	MurdererCity IngrSud	3465	842	0	false
-+	MurdererCity IngrEast	3737	680	0	false
-+	Pryma IngressoNord	3014	3519	0	false

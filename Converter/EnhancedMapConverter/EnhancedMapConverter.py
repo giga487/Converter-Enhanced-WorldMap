@@ -119,14 +119,15 @@ class FileToRead:
     
         return m_list
 
-
 applicationPath = os.getcwd()
+projectPath = os.path.abspath(os.path.join(applicationPath,'..\..'))
 folderToAnalyze = "Definitions"
 fileToCreate = "UOMARS.csv"
 
+
 def main():
     print("Welcome to the enhanced map Converter by Giga487")
-    pathToAnalyze = os.path.join(applicationPath, folderToAnalyze)
+    pathToAnalyze = os.path.join(projectPath, folderToAnalyze)
     print(f"Analyze the path {pathToAnalyze}")
     fileList = os.listdir(pathToAnalyze)
 
@@ -143,7 +144,7 @@ def main():
             for row in listFileToWrite.GetString():
                 textOnFileToWrite.append(row)
 
-    FileWriter(os.path.join(applicationPath, fileToCreate), textOnFileToWrite)
+    FileWriter(os.path.join(projectPath, fileToCreate), textOnFileToWrite)
 
     text = input("")
 

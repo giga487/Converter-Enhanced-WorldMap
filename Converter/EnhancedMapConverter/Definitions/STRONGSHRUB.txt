@@ -1,4 +1,0 @@
-+	StrongShrub Vulcano NE	3500	1587	0	false
-+	StrongShrub Vulcano SE	3550	2050	0	false
-+	StrongShrub CentralBridge	2690	2135	0	false
-+	StrongShrub NorthBridge	2605	1480	0	false
