@@ -64,11 +64,17 @@ class FileWriter:
 
     @staticmethod
     def __init__(_pathFiles: str, listOfRow):
-      
-        f = open(_pathFiles, 'w+')
+        try:
 
-        for row in listOfRow:
-            f.writelines(row+'\n')
+            f = open(_pathFiles, 'w+')
+
+
+            for row in listOfRow:
+                f.writelines(row+'\n')
+            print("\n")
+            print(f"File created at {_pathFiles}")
+        except:
+            print("Error on output creation file")
 
 
 
