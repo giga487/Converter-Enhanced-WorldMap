@@ -129,22 +129,27 @@ def main():
     print("Welcome to the enhanced map Converter by Giga487")
     pathToAnalyze = os.path.join(projectPath, folderToAnalyze)
     print(f"Analyze the path {pathToAnalyze}")
-    fileList = os.listdir(pathToAnalyze)
 
-    listFile = []
-    textOnFileToWrite = []
+    if(not os.path.exists(pathToAnalyze)):
+        print(f"Cannot analyze the path {pathToAnalyze}")
+    else:
+        
+        fileList = os.listdir(pathToAnalyze)
 
-    for fileToAnal in fileList:
+        listFile = []
+        textOnFileToWrite = []
 
-        listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
+        for fileToAnal in fileList:
 
-    for listFileToWrite in listFile:
-        if(listFileToWrite.GetString() != []):
+            listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
-            for row in listFileToWrite.GetString():
-                textOnFileToWrite.append(row)
+        for listFileToWrite in listFile:
+            if(listFileToWrite.GetString() != []):
 
-    FileWriter(os.path.join(projectPath, fileToCreate), textOnFileToWrite)
+                for row in listFileToWrite.GetString():
+                    textOnFileToWrite.append(row)
+
+        FileWriter(os.path.join(projectPath, fileToCreate), textOnFileToWrite)
 
     text = input("")
 
