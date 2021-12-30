@@ -1,4 +1,4 @@
 +	Banca OrderCity	1990	1977	0	false
 +	Banca ChaosCity	4166	2172	0	false
 +	Banca MurdererCity	3619	808	0	false
-+	Pryma IngressoNord	2961	3578	0	false
++	Banca Pryma	2961	3578	0	false
