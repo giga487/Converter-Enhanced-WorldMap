@@ -1,4 +1,0 @@
-+	Pryma WorkerPoint	2965	3620	0	false
-+	OrderCity WorkerPoint	2027	1958	0	false
-+	ChaosCity WorkerPoint	4182	2117	0	false
-+	MurdererCity WorkerPoint	3663	745	0	false

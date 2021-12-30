@@ -119,31 +119,37 @@ class FileToRead:
     
         return m_list
 
-
 applicationPath = os.getcwd()
+projectPath = os.path.abspath(os.path.join(applicationPath,'..\..'))
 folderToAnalyze = "Definitions"
 fileToCreate = "UOMARS.csv"
 
+
 def main():
     print("Welcome to the enhanced map Converter by Giga487")
-    pathToAnalyze = os.path.join(applicationPath, folderToAnalyze)
-    print(f"Analyze the path {pathToAnalyze}")
-    fileList = os.listdir(pathToAnalyze)
+    pathToAnalyze = os.path.join(projectPath, folderToAnalyze)
 
-    listFile = []
-    textOnFileToWrite = []
 
-    for fileToAnal in fileList:
+    if(not os.path.exists(pathToAnalyze)):
+        print(f"Cannot analyze the path {pathToAnalyze}")
+    else:
+        print(f"Analyze the path {pathToAnalyze}")
+        fileList = os.listdir(pathToAnalyze)
 
-        listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
+        listFile = []
+        textOnFileToWrite = []
 
-    for listFileToWrite in listFile:
-        if(listFileToWrite.GetString() != []):
+        for fileToAnal in fileList:
 
-            for row in listFileToWrite.GetString():
-                textOnFileToWrite.append(row)
+            listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
-    FileWriter(os.path.join(applicationPath, fileToCreate), textOnFileToWrite)
+        for listFileToWrite in listFile:
+            if(listFileToWrite.GetString() != []):
+
+                for row in listFileToWrite.GetString():
+                    textOnFileToWrite.append(row)
+
+        FileWriter(os.path.join(projectPath, fileToCreate), textOnFileToWrite)
 
     text = input("")
 

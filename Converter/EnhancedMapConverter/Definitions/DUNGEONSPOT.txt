@@ -1,4 +1,0 @@
-+	Egypt DungeonSpot	2882	3098	0	false
-+	The Farm DungeonSpot	2159	1535	0	false
-+	Orc's Camp DungeonSpot	4023	1609	0	false
-+	Cemetery DungeonSpot	2975	820	0	false

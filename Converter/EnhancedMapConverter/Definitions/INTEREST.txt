@@ -1,5 +1,0 @@
-+	ICE	5206	2328	1	false
-+	FIRE	5757	2908	1	false
-+	SWAMP	6074	3333	1	false
-+	ABYSS	5136	3666	1	false
-+	SINISTER	5126	3144	1	false

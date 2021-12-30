@@ -1,5 +1,0 @@
-+	Murderer East	4215	1135	0	false
-+	Neutral West	2395	3285	0	false
-+	Neutral East	3525	3140	0	false
-+	Neutral West	2395	3290	0	false
-+	Order NW	1925	1415	0	false
