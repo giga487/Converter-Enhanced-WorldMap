@@ -1,7 +1,7 @@
 1990,1977,0, Banca OrderCity0,BANK,white,0
 4166,2172,0, Banca ChaosCity0,BANK,white,0
 3619,808,0, Banca MurdererCity0,BANK,white,0
-2961,3578,0, Banca Pryma0,BANK,white,0
+2961,3578,0, Pryma IngressoNord0,BANK,white,0
 3338,2522,0, LeWorker East Bridge,white,0
 2575,2512,0, LeWorker West Bridge,white,0
 2733,2018,0, Central Bridge,white,0
@@ -21,10 +21,18 @@
 3545,1141,0, Est PK Cotton Depo0,COTTON,white,0
 3761,1497,0, N-O Chaos Cotton Depo0,COTTON,white,0
 3541,2437,0, S-E Chaos Cotton Depo0,COTTON,white,0
+3698,2032,0, Phantom Castle,white,0
+3019,2085,0, Nigmar Cove,white,0
+3548,1616,0, Hytloyh,white,0
 2882,3098,0, Egypt DungeonSpot0,DUNGEONSPOT,white,0
 2159,1535,0, The Farm DungeonSpot0,DUNGEONSPOT,white,0
 4023,1609,0, Orc's Camp DungeonSpot0,DUNGEONSPOT,white,0
 2975,820,0, Cemetery DungeonSpot0,DUNGEONSPOT,white,0
+2948,1054,0, Shade0,DUNGEONSPOT,white,0
+3940,2990,0, Lizard0,DUNGEONSPOT,white,0
+2811,1140,0, Elemental0,DUNGEONSPOT,white,0
+2126,3015,0, Centaury0,DUNGEONSPOT,white,0
+2300,827,0, Meridian Fort0,DUNGEONSPOT,white,0
 2084,1886,0,0,EXIT,white,0
 2589,1398,0, Worker Pigrizio0,EXTWORKERPOINT,white,0
 2444,2291,0, Worker Order0,EXTWORKERPOINT,white,0
@@ -90,6 +98,8 @@
 2528,1956,0, Order Mine0,MINER,white,0
 5436,3384,1, Entrata Uscita LostLand0,MOONGATE,white,0
 5594,3197,1, Entrata Uscita LostLand0,MOONGATE,white,0
+3056,2499,0, Entrata LostLand0,MOONGATE,white,0
+3086,2603,0, Entrata LostLand0,MOONGATE,white,0
 2666,2620,0, LeWorker West NormalHides0,NORMALHIDES,white,0
 2448,1940,0, Order East NormalHides0,NORMALHIDES,white,0
 3854,2154,0, Chaos West NormalHides0,NORMALHIDES,white,0
