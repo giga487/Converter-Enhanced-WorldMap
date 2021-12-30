@@ -2,11 +2,11 @@
 4166,2172,0, Banca ChaosCity0,BANK,white,0
 3619,808,0, Banca MurdererCity0,BANK,white,0
 2961,3578,0, Pryma IngressoNord0,BANK,white,0
-3338,2522,0, LeWorker East Bridge,white,0
-2575,2512,0, LeWorker West Bridge,white,0
-2733,2018,0, Central Bridge,white,0
-2615,1353,0, Order North Bridge,white,0
-2700,740,0, Meridian Bridge,white,0
+3338,2522,0, LeWorker East Bridge0,BRIDGE,white,0
+2575,2512,0, LeWorker West Bridge0,BRIDGE,white,0
+2733,2018,0, Central Bridge0,BRIDGE,white,0
+2615,1353,0, Order North Bridge0,BRIDGE,white,0
+2700,740,0, Meridian Bridge0,BRIDGE,white,0
 1831,1832,0, OrderCity Castle0,CASTLE,white,0
 4425,2069,0, ChaosCity Castle0,CASTLE,white,0
 2955,3725,0, Caveau Pryma City0,CAVEAU,white,0
@@ -21,9 +21,9 @@
 3545,1141,0, Est PK Cotton Depo0,COTTON,white,0
 3761,1497,0, N-O Chaos Cotton Depo0,COTTON,white,0
 3541,2437,0, S-E Chaos Cotton Depo0,COTTON,white,0
-3698,2032,0, Phantom Castle,white,0
-3019,2085,0, Nigmar Cove,white,0
-3548,1616,0, Hytloyh,white,0
+3698,2032,0, Phantom Castle0,DUNGEON,white,0
+3019,2085,0, Nigmar Cove0,DUNGEON,white,0
+3548,1616,0, Hytloyh0,DUNGEON,white,0
 2882,3098,0, Egypt DungeonSpot0,DUNGEONSPOT,white,0
 2159,1535,0, The Farm DungeonSpot0,DUNGEONSPOT,white,0
 4023,1609,0, Orc's Camp DungeonSpot0,DUNGEONSPOT,white,0
