@@ -96,10 +96,10 @@
 2703,1192,0, PK Mine Ovest0,MINER,white,0
 3736,2289,0, Chaos Mine0,MINER,white,0
 2528,1956,0, Order Mine0,MINER,white,0
-2948,1054,0, Shade0,MINIDUNGEON,white,0
-3940,2990,0, Lizard0,MINIDUNGEON,white,0
-2811,1140,0, Elemental0,MINIDUNGEON,white,0
-2126,3015,0, Centaury0,MINIDUNGEON,white,0
+2948,1054,0, Shade MiniDungeon0,MINIDUNGEON,white,0
+3940,2990,0, Lizard MiniDungeon0,MINIDUNGEON,white,0
+2811,1140,0, Elemental MiniDungeon0,MINIDUNGEON,white,0
+2126,3015,0, Centaury MiniDungeon0,MINIDUNGEON,white,0
 5436,3384,1, Entrata Uscita LostLand0,MOONGATE,white,0
 5594,3197,1, Entrata Uscita LostLand0,MOONGATE,white,0
 3056,2499,0, Entrata LostLand0,MOONGATE,white,0
@@ -156,7 +156,7 @@
 2868,1784,0, Order Enter0,VULCANO,white,0
 3459,1615,0, Chaos Enter0,VULCANO,white,0
 3189,1489,0, Murderer Enter0,VULCANO,white,0
-2965,3620,0, Pryma WorkerPoint0,WORKERPOINT,white,0
-2027,1958,0, OrderCity WorkerPoint0,WORKERPOINT,white,0
-4182,2117,0, ChaosCity WorkerPoint0,WORKERPOINT,white,0
-3663,745,0, MurdererCity WorkerPoint0,WORKERPOINT,white,0
+2965,3620,0, Pryma WorkerPoint0,WORKERTABLES,white,0
+2027,1958,0, OrderCity WorkerPoint0,WORKERTABLES,white,0
+4182,2117,0, ChaosCity WorkerPoint0,WORKERTABLES,white,0
+3663,745,0, MurdererCity WorkerPoint0,WORKERTABLES,white,0
