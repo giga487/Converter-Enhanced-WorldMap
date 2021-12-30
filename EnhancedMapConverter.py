@@ -53,7 +53,7 @@ class StringRead:
             fileName = self.FindNameGroup()
             fileToSearch = fileName.replace(".txt","")
 
-            self.m_stringToSave = f"{self.m_X},{self.m_Y},{self.m_mapIndex},{self.m_Name}0,{fileToSearch},{self.DEFAULT_COLOR},{self.DEFAULT_ZOOM_LEVEL}"
+            self.m_stringToSave = f"{self.m_X},{self.m_Y},{self.m_mapIndex},{self.m_Name},{fileToSearch},{self.DEFAULT_COLOR},{self.DEFAULT_ZOOM_LEVEL}"
 
             print(self.m_stringToSave)
 
