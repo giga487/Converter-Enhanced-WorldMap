@@ -71,6 +71,7 @@ class FileWriter:
 
             for row in listOfRow:
                 f.writelines(row+'\n')
+
             print("\n")
             print(f"File created at {_pathFiles}")
         except:
