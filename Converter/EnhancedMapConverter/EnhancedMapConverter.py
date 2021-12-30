@@ -128,12 +128,12 @@ fileToCreate = "UOMARS.csv"
 def main():
     print("Welcome to the enhanced map Converter by Giga487")
     pathToAnalyze = os.path.join(projectPath, folderToAnalyze)
-    print(f"Analyze the path {pathToAnalyze}")
+
 
     if(not os.path.exists(pathToAnalyze)):
         print(f"Cannot analyze the path {pathToAnalyze}")
     else:
-        
+        print(f"Analyze the path {pathToAnalyze}")
         fileList = os.listdir(pathToAnalyze)
 
         listFile = []
