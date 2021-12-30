@@ -1,0 +1,4 @@
++	Enigma	2816	3227	0	false
++	Dragon	3402	1112	0	false
++	Order Fort	2404	2134	0	false
++	Chaos Fort	3915	2429	0	false

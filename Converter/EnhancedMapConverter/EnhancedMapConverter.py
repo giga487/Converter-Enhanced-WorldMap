@@ -6,6 +6,13 @@ import ntpath
 class StringRead:
     DEFAULT_ZOOM_LEVEL = 0
     DEFAULT_COLOR = "white"
+    
+    FILE_TO_IMAGE = {
+        "BANK.txt":"BANK", "LOGS.txt":"LOGS","HIDES.txt":"HIDES","COTTON.txt":"COTTON","INGRESSO.txt":"INGRESSO","NORMALWOOD.txt":"NORMALWOOD","SPIDERROCKS.txt":"SPIDERROCKS","BRDIGE.txt":"BRDIGE",
+        "MINER.txt":"MINER","FISH.txt":"FISH", "NORMALHIDES.txt":"NORMALHIDES","STRONGSHRUB.txt":"STRONGSHRUB","EXTWORKERPOINT.txt":"EXTWORKERPOINT", "DUNGEONSPOT.txt":"DUNGEONSPOT",
+        "SAND.txt":"SAND","VULCANO.txt":"VULCANO","CAVEAU.txt":"CAVEAU","SHELLS.txt":"SHELLS","MARKET.txt":"MARKET","PRISON.txt":"PRISON","PORT.txt":"PORT","INN.txt":"INN", "INTEREST.txt":"INTEREST",
+        "TOWN.txt":"TOWN", "OUTPOST.txt":"OUTPOST","MOONGATE.txt":"MOONGATE", "CASTLE.txt":"CASTLE", "EXIT.txt":"EXIT","WORKERPOINT.txt":"WORKERPOINT", 
+    }
 
     def __init__(self, _stringToSplit: str, _file):
 
@@ -16,6 +23,10 @@ class StringRead:
 
     def GetString(self):
         return self.m_stringToSave
+
+    def FindNameGroup(self):
+        head, tail = ntpath.split(self.m_pathfile)
+        return tail or ntpath.basename(head)
 
     def EncapsuleData(self):
         self.m_splittedString = self.m_stringToSplit.split()
@@ -44,9 +55,16 @@ class StringRead:
             i+=1
             self.m_mapIndex = self.m_splittedString[i]
             i+=1
-            self.NameInMap = self.m_splittedString[i]
+            self.NameInMap = self.m_splittedString[i]     
 
-            self.m_stringToSave = f"{self.m_X},{self.m_Y},{self.m_mapIndex},{self.m_Name},{self.DEFAULT_COLOR},{self.DEFAULT_ZOOM_LEVEL}"
+            fileName = self.FindNameGroup()
+
+            if(fileName in self.FILE_TO_IMAGE):
+
+                self.m_stringToSave = f"{self.m_X},{self.m_Y},{self.m_mapIndex},{self.m_Name}0,{self.FILE_TO_IMAGE[fileName]},{self.DEFAULT_COLOR},{self.DEFAULT_ZOOM_LEVEL}"
+
+            else:
+                self.m_stringToSave = f"{self.m_X},{self.m_Y},{self.m_mapIndex},{self.m_Name},{self.DEFAULT_COLOR},{self.DEFAULT_ZOOM_LEVEL}"
             print(self.m_stringToSave)
 
         except:

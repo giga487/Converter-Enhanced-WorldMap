@@ -1,0 +1,5 @@
++	LeWorker East Bridge	3338	2522	0	false
++	LeWorker West Bridge	2575	2512	0	false
++	Central Bridge	2733	2018	0	false
++	Order North Bridge	2615	1353	0	false
++	Meridian Bridge	2700	740	0	false
