@@ -82,12 +82,12 @@
 4272,1899,0, ChaosCity Market0,MARKET,white,0
 2725,3771,0, Pryma Market0,MARKET,white,0
 3136,713,0, MurdererCity Market0,MARKET,white,0
-3022,2537,0, Le Worker0,MINER,white,5
-3221,3334,0, Pryma Mine0,MINER,white,5
-3701,1218,0, PK Mine East0,MINER,white,5
-2703,1192,0, PK Mine Ovest0,MINER,white,5
-3736,2289,0, Chaos Mine0,MINER,white,5
-2528,1956,0, Order Mine0,MINER,white,5
+3022,2537,0, Le Worker0,MINER,white,0
+3221,3334,0, Pryma Mine0,MINER,white,0
+3701,1218,0, PK Mine East0,MINER,white,0
+2703,1192,0, PK Mine Ovest0,MINER,white,0
+3736,2289,0, Chaos Mine0,MINER,white,0
+2528,1956,0, Order Mine0,MINER,white,0
 5436,3384,1, Entrata Uscita LostLand0,MOONGATE,white,0
 5594,3197,1, Entrata Uscita LostLand0,MOONGATE,white,0
 2666,2620,0, LeWorker West NormalHides0,NORMALHIDES,white,0
