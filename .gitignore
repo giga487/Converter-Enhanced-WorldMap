@@ -5,8 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+#File del cazzo
 Converter/.vs/**.*
-
+*.suo
 # Distribution / packaging
 .Python
 build/
