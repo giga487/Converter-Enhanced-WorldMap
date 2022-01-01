@@ -1,0 +1,34 @@
++ Camp 3122	1056	0	false
++ Pryma   3032 3526	0	false
++ Pryma   3000 3626	0	false
++ Fort Order   2435 2290	0	false
++ Lost Lands House   5726 3988	1	false
++ Camp   3136 2839	0	false
++ Worker PK   3721 1216	0	false
++ Worker Order   2518 1976	0	false
++ Chaos City   4152 2192	0	false
++ Pryma Merchant   2754 3693	0	false
++ Grey Bank   3061 3113	0	false
++ Camp  2398 660 0	false
++ Camp  2581 602 0	false
++ Near Order Fort   2327 2317	0	false
++ Worker Point Chaos   3751 2283	0	false
++ Orc Cove  2204 1262	0	false
++ Camp 2557 692	0	false
++ Worker Pigrizio 2543 1468	0	false
++ Pk Mine Ovest 2702 1172	0	false
++ Pk Worker 3478 1441	0	false
++ Pigrizio 3125 1248	0	false
++ Neutral Fish 3295 2998	0	false
++ Camp 2404 1061	0	false
++ Worker Neutral 2904 2823	0	false
++ Order 1998 1954	0	false
++ Worker Chaos 3433 2412	0	false
++ Worker 3063 2534	0	false
++ Camp 2445 592	0	false
++ Camp 3894 2214	0	false
++ Camp 3487 3370	0	false
++ Camp 2295 895	0	false
++ Camp 2522 769	0	false
++ Camp 2356 611	0	false
++ Camp 2349 705	0	false
