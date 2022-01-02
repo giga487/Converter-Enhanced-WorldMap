@@ -2,3 +2,4 @@
 +	Entrata Uscita LostLand	5594	3197	1	false
 +	Entrata LostLand	3056	2499	0	false
 +	Entrata LostLand	3086	2603	0	false
++   Entrata Uscita Heaven  3647 2595 1	false
