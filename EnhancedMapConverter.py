@@ -149,24 +149,25 @@ class FileToRead:
         self.m_listLine = []
 
         try:
-            with open(self.m_pathfile) as f:
-                lines = f.readlines()                
+            with open(self.m_pathfile, 'w') as f:
 
+                if(lines != []):
+
+                    for line in f.readlines(): 
+                        stringToStudy = LineConverter.OldToNewFOrmat(line)
+
+                        if(stringToStudy.IsToSave()):
+                            f.write(line.replace(line,stringToStudy.GetString()))
+
+            """
             if(lines != []):
                 print(f"Read file {self.FindNameGroup()} ++++++++++++")
 
                 for line in lines:
 
-                    stringToStudy = LineConverter.OldToNewFOrmat(line)
-
-                    if(stringToStudy.IsToSave()):
-                        try:
-                            with open(self.m_pathfile, 'w') as f:
-                                f.write(line.replace(line,stringToStudy.GetString()))
-
-                        except Exception as e:
-                            logging.error(f": {str(e)}")
+                    stringToStudy = LineConverter.OldToNewFOrmat(line)                    
                     self.m_listLine.append(StringRead(stringToStudy.GetString(), self.m_pathfile))
+            """
         except:
             print("Error")
 
