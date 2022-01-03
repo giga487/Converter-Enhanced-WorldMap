@@ -157,9 +157,7 @@ class FileToRead:
                 for line in lines:
                 
                     stringToStudy = LineConverter.OldToNewFOrmat(line)
-
-                    if(stringToStudy.IsToSave()):
-                        self.newLines.append(stringToStudy.GetString())
+                    self.newLines.append(stringToStudy.GetString())
             
                 with open(self.m_pathfile, 'w') as f:
                     for line in self.newLines:
