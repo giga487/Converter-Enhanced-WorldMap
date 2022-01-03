@@ -1,4 +1,4 @@
-+	OrderCity Inn	2074	1818	0	false
-+	ChaosCity Inn	4222	1929	0	false
-+	MurdererCity Inn	3669	808	0	false
-+	Pryma Inn	3006	3669	0	false
++; OrderCity Inn;2074;1818;0;false
++; ChaosCity Inn;4222;1929;0;false
++; MurdererCity Inn;3669;808;0;false
++; Pryma Inn;3006;3669;0;false

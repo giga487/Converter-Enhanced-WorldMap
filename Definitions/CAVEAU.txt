@@ -1,4 +1,4 @@
-+	Caveau Pryma City	2955	3725	0	false
-+	Caveau Order City	1955	1974	0	false
-+	Caveau Chaos City	4293	2088	0	false
-+	Caveau Murderer City	3531	697	0	false
++; Caveau Pryma City;2955;3725;0;false
++; Caveau Order City;1955;1974;0;false
++; Caveau Chaos City;4293;2088;0;false
++; Caveau Murderer City;3531;697;0;false

@@ -1,6 +1,6 @@
-+	Le Worker	3022	2537	0	false
-+	Pryma Mine	3221	3334	0	false
-+	PK Mine East	3701	1218	0	false
-+	PK Mine Ovest	2703	1192	0	false
-+	Chaos Mine	3736	2289	0	false
-+	Order Mine	2528	1956	0	false
++; Le Worker;3022;2537;0;false
++; Pryma Mine;3221;3334;0;false
++; PK Mine East;3701;1218;0;false
++; PK Mine Ovest;2703;1192;0;false
++; Chaos Mine;3736;2289;0;false
++; Order Mine;2528;1956;0;false

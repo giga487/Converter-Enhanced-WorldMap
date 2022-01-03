@@ -1,4 +1,4 @@
-+	ChaosCity	2043	1912	0	false
-+	OrderCity	4256	2100	0	false
-+	MurdererCity	3653	779	0	false
-+	Pryma	3012	3581	0	false
++; ChaosCity;2043;1912;0;false
++; OrderCity;4256;2100;0;false
++; MurdererCity;3653;779;0;false
++; Pryma;3012;3581;0;false

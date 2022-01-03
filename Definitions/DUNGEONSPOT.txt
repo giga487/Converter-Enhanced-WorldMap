@@ -1,9 +1,9 @@
-+	Egypt DungeonSpot	2882	3098	0	false
-+	The Farm DungeonSpot	2159	1535	0	false
-+	Orc's Camp DungeonSpot	4023	1609	0	false
-+	Cemetery DungeonSpot	2975	820	0	false
-+	Shade	2948	1054	0	false
-+	Lizard	3940	2990	0	false
-+	Elemental	2811	1140	0	false
-+	Centaury	2126	3015	0	false
-+	Meridian Fort	2300	827	0	false
++; Egypt DungeonSpot;2882;3098;0;false
++; The Farm DungeonSpot;2159;1535;0;false
++; Orc's Camp DungeonSpot;4023;1609;0;false
++; Cemetery DungeonSpot;2975;820;0;false
++; Shade;2948;1054;0;false
++; Lizard;3940;2990;0;false
++; Elemental;2811;1140;0;false
++; Centaury;2126;3015;0;false
++; Meridian Fort;2300;827;0;false

@@ -24,8 +24,8 @@ class StringRead:
         return tail or ntpath.basename(head)
 
     def EncapsuleData(self):
-        self.m_splittedString = self.m_stringToSplit.split()
 
+        self.m_splittedString = self.m_stringToSplit.split(';')
         self.m_Name = ""
 
         IsNotCoordinate = True
@@ -124,7 +124,7 @@ class LineConverter:
                 i+=1
                 IsVisible = stringSplitted[i]
 
-                stringToReturn = LineInfo(f"{SymbolAdd};{Name};{X};{Y};{Map};{IsVisible}", True)
+                stringToReturn = LineInfo(f"{SymbolAdd};{Name};{X};{Y};{Map};{IsVisible}\n", True)
             except:
                 print(f"Error on convert string to new format")
                 stringToReturn = LineInfo(_strToAnalyze, False)
@@ -147,27 +147,31 @@ class FileToRead:
     def LoadFiles(self):
 
         self.m_listLine = []
-
+        self.newLines = []
         try:
-            with open(self.m_pathfile, 'w') as f:
+            with open(self.m_pathfile, 'r') as f:
+                lines = f.readlines()
 
-                if(lines != []):
-
-                    for line in f.readlines(): 
-                        stringToStudy = LineConverter.OldToNewFOrmat(line)
-
-                        if(stringToStudy.IsToSave()):
-                            f.write(line.replace(line,stringToStudy.GetString()))
-
-            """
             if(lines != []):
-                print(f"Read file {self.FindNameGroup()} ++++++++++++")
 
                 for line in lines:
+                
+                    stringToStudy = LineConverter.OldToNewFOrmat(line)
+
+                    if(stringToStudy.IsToSave()):
+                        self.newLines.append(stringToStudy.GetString())
+            
+                with open(self.m_pathfile, 'w') as f:
+                    for line in self.newLines:
+                        f.write(line)
+
+                print(f"\nRead file {self.FindNameGroup()} ++++++++++++")
+
+                for line in self.newLines:
 
                     stringToStudy = LineConverter.OldToNewFOrmat(line)                    
                     self.m_listLine.append(StringRead(stringToStudy.GetString(), self.m_pathfile))
-            """
+
         except:
             print("Error")
 

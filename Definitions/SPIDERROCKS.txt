@@ -1,6 +1,6 @@
-+	SpiderRocks Vulcano N	3145	1465	0	false
-+	SpiderRocks Vulcano SE	3440	2090	0	false
-+	SpiderRocks Murderer S	3433	973	0	false
-+	SpiderRocks Vulcano NW	2790	1600	0	false
-+	SpiderRocks Vulcano W	2830	1775	0	false
-+	SpiderRocks Vulcano S	3300	2175	0	false
++; SpiderRocks Vulcano N;3145;1465;0;false
++; SpiderRocks Vulcano SE;3440;2090;0;false
++; SpiderRocks Murderer S;3433;973;0;false
++; SpiderRocks Vulcano NW;2790;1600;0;false
++; SpiderRocks Vulcano W;2830;1775;0;false
++; SpiderRocks Vulcano S;3300;2175;0;false
