@@ -166,7 +166,7 @@ class FileToRead:
 
                         except Exception as e:
                             logging.error(f": {str(e)}")
-                    self.m_listLine.append(StringRead(stringToStudy, self.m_pathfile))
+                    self.m_listLine.append(StringRead(stringToStudy.GetString(), self.m_pathfile))
         except:
             print("Error")
 
