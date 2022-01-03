@@ -79,6 +79,7 @@ class FileWriter:
             print("Error on output creation file")
 
 
+class LineInfo:
 
     def __init__(self, line: str, IsLineToSave: bool):
         self.m_newString = line
