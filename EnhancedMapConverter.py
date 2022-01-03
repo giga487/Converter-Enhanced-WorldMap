@@ -2,6 +2,8 @@
 import os
 import os.path
 import ntpath
+from typing import ItemsView
+import logging
 
 class StringRead:
     DEFAULT_ZOOM_LEVEL = 0
@@ -68,7 +70,6 @@ class FileWriter:
 
             f = open(_pathFiles, 'w+')
 
-
             for row in listOfRow:
                 f.writelines(row+'\n')
 
@@ -77,6 +78,57 @@ class FileWriter:
         except:
             print("Error on output creation file")
 
+
+
+    def __init__(self, line: str, IsLineToSave: bool):
+        self.m_newString = line
+        self.m_toSave = IsLineToSave
+
+    def GetString(self):
+        return self.m_newString
+
+    def IsToSave(self):
+        return self.m_toSave
+
+class LineConverter:
+
+     @staticmethod
+     def OldToNewFOrmat(_strToAnalyze) -> LineInfo:
+
+        if(_strToAnalyze.find(";") != -1):  #is already converted
+            stringToReturn = LineInfo(_strToAnalyze, False)
+        else:
+            stringSplitted = _strToAnalyze.split()
+            Name = ""
+            IsNotCoordinate = True
+            SymbolAdd = stringSplitted[0]
+
+            i = 1
+            try:
+                while IsNotCoordinate == True:
+
+                    try:
+                        intValueToCheck = int(stringSplitted[i])
+                        IsNotCoordinate = False
+                        break
+                    except:
+                        Name += " " + stringSplitted[i]
+                    i += 1
+                     
+                X = intValueToCheck
+                i+=1
+                Y = stringSplitted[i]
+                i+=1
+                Map = stringSplitted[i]
+                i+=1
+                IsVisible = stringSplitted[i]
+
+                stringToReturn = LineInfo(f"{SymbolAdd};{Name};{X};{Y};{Map};{IsVisible}", True)
+            except:
+                print(f"Error on convert string to new format")
+                stringToReturn = LineInfo(_strToAnalyze, False)
+
+        return stringToReturn
 
 
 class FileToRead:
@@ -97,12 +149,23 @@ class FileToRead:
 
         try:
             with open(self.m_pathfile) as f:
-                lines = f.readlines()
+                lines = f.readlines()                
 
             if(lines != []):
-                print(f"\n+++++++++++ Read file {self.FindNameGroup()} ++++++++++++")
+                print(f"Read file {self.FindNameGroup()} ++++++++++++")
+
                 for line in lines:
-                    self.m_listLine.append(StringRead(line, self.m_pathfile))
+
+                    stringToStudy = LineConverter.OldToNewFOrmat(line)
+
+                    if(stringToStudy.IsToSave()):
+                        try:
+                            with open(self.m_pathfile, 'w') as f:
+                                f.write(line.replace(line,stringToStudy.GetString()))
+
+                        except Exception as e:
+                            logging.error(f": {str(e)}")
+                    self.m_listLine.append(StringRead(stringToStudy, self.m_pathfile))
         except:
             print("Error")
 
@@ -122,6 +185,7 @@ fileToCreate = "UOMARS.csv"
 
 
 def main():
+    logging.basicConfig(filename="appLog.log", filemode='w+', level=logging.WARN)
     print("Welcome to the enhanced map Converter by Giga487")
     pathToAnalyze = os.path.join(applicationPath, folderToAnalyze)
 
@@ -136,6 +200,7 @@ def main():
         textOnFileToWrite = []
 
         for fileToAnal in fileList:
+
 
             listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
