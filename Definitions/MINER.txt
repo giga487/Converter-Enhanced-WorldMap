@@ -4,8 +4,8 @@
 +; PK Mine Ovest;2703;1192;0;false
 +; Chaos Mine;3736;2289;0;false
 +; Order Mine;2528;1956;0;false
-+; Sinister Mine;5188,3199;1;false
-+; Swamp Mine;6115,3391;1;false
-+; Ice Mine;5376,2312;1;false
-+; Abyss Mine;5150,3759;1;false
-+; Fire Mine;5699,2995;1;false
++; Sinister Mine;5188;3199;1;false
++; Swamp Mine;6115;3391;1;false
++; Ice Mine;5376;2312;1;false
++; Abyss Mine;5150;3759;1;false
++; Fire Mine;5699;2995;1;false

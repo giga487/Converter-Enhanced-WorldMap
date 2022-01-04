@@ -36,7 +36,7 @@
 2300,827,0,  Meridian Fort,DUNGEONSPOT,white,0
 5770,2619,1,  Ophidian,DUNGEONSPOT,white,0
 5447,3132,1,  TerathanKeep,DUNGEONSPOT,white,0
-
+5214,36421,1,  Goblin,DUNGEONSPOT,white,0
 5730,3203,1,  Papua,DUNGEONSPOT,white,0
 5265,3990,1,  Delucia,DUNGEONSPOT,white,0
 2084,1886,0, ,EXIT,white,0
@@ -158,11 +158,11 @@
 2703,1192,0,  PK Mine Ovest,MINER,white,0
 3736,2289,0,  Chaos Mine,MINER,white,0
 2528,1956,0,  Order Mine,MINER,white,0
-
-
-
-
-
+5188,3199,1,  Sinister Mine,MINER,white,0
+6115,3391,1,  Swamp Mine,MINER,white,0
+5376,2312,1,  Ice Mine,MINER,white,0
+5150,3759,1,  Abyss Mine,MINER,white,0
+5699,2995,1,  Fire Mine,MINER,white,0
 2948,1054,0,  Shade MiniDungeon,MINIDUNGEON,white,0
 3940,2990,0,  Lizard MiniDungeon,MINIDUNGEON,white,0
 2811,1140,0,  Elemental MiniDungeon,MINIDUNGEON,white,0

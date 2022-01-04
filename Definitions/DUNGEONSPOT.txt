@@ -5,6 +5,6 @@
 +; Meridian Fort;2300;827;0;false
 +; Ophidian;5770;2619;1;false
 +; TerathanKeep;5447;3132;1;false
-+; Goblin;5214;36421;false
++; Goblin;5214;36421;1;false
 +; Papua;5730;3203;1;false
 +; Delucia;5265;3990;1;false
