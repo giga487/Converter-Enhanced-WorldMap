@@ -2,8 +2,9 @@
 +; The Farm DungeonSpot;2159;1535;0;false
 +; Orc's Camp DungeonSpot;4023;1609;0;false
 +; Cemetery DungeonSpot;2975;820;0;false
-+; Shade;2948;1054;0;false
-+; Lizard;3940;2990;0;false
-+; Elemental;2811;1140;0;false
-+; Centaury;2126;3015;0;false
 +; Meridian Fort;2300;827;0;false
++; Ophidian;5770;2619;1;false
++; TerathanKeep;5447;3132;1;false
++; Goblin;5214;36421;false
++; Papua;5730;3203;1;false
++; Delucia;5265;3990;1;false

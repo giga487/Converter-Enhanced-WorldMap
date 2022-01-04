@@ -2,3 +2,8 @@
 +; StrongShrub Vulcano SE;3550;2050;0;false
 +; StrongShrub CentralBridge;2690;2135;0;false
 +; StrongShrub NorthBridge;2605;1480;0;false
++;Ophidian StrongShrub;5822;2677;1;false
++;Goblin StrongShrub;5168;3533;1;false
++;Ice StrongShrub;5386;2341;1;false
++;Sinister StrongShrub;5302;3239;1;false
++;Swamp StrongShrub;5894;3612;1;false

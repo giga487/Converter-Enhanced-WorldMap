@@ -2,3 +2,8 @@
 +; West Neutral Beach;2417;3232;0;false
 +; East Neutral Beach;3629;3085;0;false
 +; East PK Beach;4275;1229;0;false
++; Swamp BloodyShell;5836;3459;1;false
++; Ash BloodyShell;5315;3636;1;false
++; Desert BloodyShell;5313;2490;1;false
++; Sinister Bay;5288;3131;1;false
++; Fire BloodyShell;5719;2789;1;false

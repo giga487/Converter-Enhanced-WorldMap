@@ -21,6 +21,11 @@
 3545,1141,0,  Est PK Cotton Depo,COTTON,white,0
 3761,1497,0,  N-O Chaos Cotton Depo,COTTON,white,0
 3541,2437,0,  S-E Chaos Cotton Depo,COTTON,white,0
+
+
+
+
+
 3698,2032,0,  Phantom Castle,DUNGEON,white,0
 3019,2085,0,  Nigmar Cove,DUNGEON,white,0
 3548,1616,0,  Hytloyh,DUNGEON,white,0
@@ -28,11 +33,12 @@
 2159,1535,0,  The Farm DungeonSpot,DUNGEONSPOT,white,0
 4023,1609,0,  Orc's Camp DungeonSpot,DUNGEONSPOT,white,0
 2975,820,0,  Cemetery DungeonSpot,DUNGEONSPOT,white,0
-2948,1054,0,  Shade,DUNGEONSPOT,white,0
-3940,2990,0,  Lizard,DUNGEONSPOT,white,0
-2811,1140,0,  Elemental,DUNGEONSPOT,white,0
-2126,3015,0,  Centaury,DUNGEONSPOT,white,0
 2300,827,0,  Meridian Fort,DUNGEONSPOT,white,0
+5770,2619,1,  Ophidian,DUNGEONSPOT,white,0
+5447,3132,1,  TerathanKeep,DUNGEONSPOT,white,0
+
+5730,3203,1,  Papua,DUNGEONSPOT,white,0
+5265,3990,1,  Delucia,DUNGEONSPOT,white,0
 2084,1886,0, ,EXIT,white,0
 2589,1398,0,  Worker Pigrizio,EXTWORKERPOINT,white,0
 2444,2291,0,  Worker Order,EXTWORKERPOINT,white,0
@@ -44,6 +50,12 @@
 4229,1108,0,  Murderer Bay,FISH,white,0
 1951,1342,0,  Order NW Bay,FISH,white,0
 2880,2213,0,  LeWorker North Bay,FISH,white,0
+5831,2921,1,  Red Salmon,FISH,white,0
+5232,3708,1,  Azure Fish,FISH,white,0
+5387,2387,1,  White Fish,FISH,white,0
+6053,3187,1,  Orange Fish,FISH,white,0
+5304,3294,1,  Shiny Fish,FISH,white,0
+5764,3619,1,  AllFishes,FISH,white,0
 5606,3519,1,  Ingresso/Uscita Ice,GATE,white,0
 6078,3064,1,  Minera d'Oro,GEM,white,0
 3122,1056,0,  Camp,HEALER,white,0
@@ -90,6 +102,13 @@
 2765,2250,0,  LeWorker NW Hides,HIDES,white,0
 2265,1305,0,  Order NE Hides,HIDES,white,0
 3345,1300,0,  Murderer S Hides,HIDES,white,0
+
+5496,2350,1,  PolarEast,HIDES,white,0
+5165,2336,1,  PolarWest,HIDES,white,0
+5138,3179,1,  Gargoyle,HIDES,white,0
+5174,3710,1,  TideNorth,HIDES,white,0
+5161,3797,1,  TideSouth,HIDES,white,0
+5716,2944,1,  Dragon,HIDES,white,0
 2084,1886,0,  OrderCity IngressoNord,INGRESSO,white,0
 2085,1886,0,  OrderCity IngressoSud,INGRESSO,white,0
 4100,2065,0,  ChaosCity IngressoNord,INGRESSO,white,0
@@ -122,6 +141,13 @@
 3815,1435,0,  Ash Lake,LOGS,white,0
 3515,1725,0,  Oak East,LOGS,white,0
 2745,1667,0,  Oak West,LOGS,white,0
+5994,3414,1,  HeartWood,LOGS,white,0
+5505,2349,1,  FrostWoodEast,LOGS,white,0
+5155,2348,1,  FrostWoodWest,LOGS,white,0
+5751,2882,1,  BloodWood,LOGS,white,0
+5148,3721,1,  AshNorth,LOGS,white,0
+5191,3785,1,  AshSouth,LOGS,white,0
+5150,3132,1,  Oak,LOGS,white,0
 1953,2113,0,  OrderCity Market,MARKET,white,0
 4272,1899,0,  ChaosCity Market,MARKET,white,0
 3136,713,0,  MurdererCity Market,MARKET,white,0
@@ -132,6 +158,11 @@
 2703,1192,0,  PK Mine Ovest,MINER,white,0
 3736,2289,0,  Chaos Mine,MINER,white,0
 2528,1956,0,  Order Mine,MINER,white,0
+
+
+
+
+
 2948,1054,0,  Shade MiniDungeon,MINIDUNGEON,white,0
 3940,2990,0,  Lizard MiniDungeon,MINIDUNGEON,white,0
 2811,1140,0,  Elemental MiniDungeon,MINIDUNGEON,white,0
@@ -176,16 +207,31 @@
 2417,3232,0,  West Neutral Beach,SHELLS,white,0
 3629,3085,0,  East Neutral Beach,SHELLS,white,0
 4275,1229,0,  East PK Beach,SHELLS,white,0
+5836,3459,1,  Swamp BloodyShell,SHELLS,white,0
+5315,3636,1,  Ash BloodyShell,SHELLS,white,0
+5313,2490,1,  Desert BloodyShell,SHELLS,white,0
+5288,3131,1,  Sinister Bay,SHELLS,white,0
+5719,2789,1,  Fire BloodyShell,SHELLS,white,0
 3145,1465,0,  SpiderRocks Vulcano N,SPIDERROCKS,white,0
 3440,2090,0,  SpiderRocks Vulcano SE,SPIDERROCKS,white,0
 3433,973,0,  SpiderRocks Murderer S,SPIDERROCKS,white,0
 2790,1600,0,  SpiderRocks Vulcano NW,SPIDERROCKS,white,0
 2830,1775,0,  SpiderRocks Vulcano W,SPIDERROCKS,white,0
 3300,2175,0,  SpiderRocks Vulcano S,SPIDERROCKS,white,0
+5159,3910,1,  Delucia Spiders,SPIDERROCKS,white,0
+6103,3443,1,  Swamp Spiders,SPIDERROCKS,white,0
+5266,3169,1,  Sinister Spiders,SPIDERROCKS,white,0
+5709,2515,1,  Desert Spiders,SPIDERROCKS,white,0
+5312,2339,1,  Ice Spiders,SPIDERROCKS,white,0
 3500,1587,0,  StrongShrub Vulcano NE,STRONGSHRUB,white,0
 3550,2050,0,  StrongShrub Vulcano SE,STRONGSHRUB,white,0
 2690,2135,0,  StrongShrub CentralBridge,STRONGSHRUB,white,0
 2605,1480,0,  StrongShrub NorthBridge,STRONGSHRUB,white,0
+5822,2677,1, Ophidian StrongShrub,STRONGSHRUB,white,0
+5168,3533,1, Goblin StrongShrub,STRONGSHRUB,white,0
+5386,2341,1, Ice StrongShrub,STRONGSHRUB,white,0
+5302,3239,1, Sinister StrongShrub,STRONGSHRUB,white,0
+5894,3612,1, Swamp StrongShrub,STRONGSHRUB,white,0
 2043,1912,0,  ChaosCity,TOWN,white,0
 4256,2100,0,  OrderCity,TOWN,white,0
 3653,779,0,  MurdererCity,TOWN,white,0

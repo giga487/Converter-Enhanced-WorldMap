@@ -14,3 +14,10 @@
 +; Ash Lake;3815;1435;0;false
 +; Oak East;3515;1725;0;false
 +; Oak West;2745;1667;0;false
++; HeartWood;5994;3414;1;false
++; FrostWoodEast;5505;2349;1;false
++; FrostWoodWest;5155;2348;1;false
++; BloodWood;5751;2882;1;false
++; AshNorth;5148;3721;1;false
++; AshSouth;5191;3785;1;false
++; Oak;5150;3132;1;false

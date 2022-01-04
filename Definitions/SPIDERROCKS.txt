@@ -4,3 +4,8 @@
 +; SpiderRocks Vulcano NW;2790;1600;0;false
 +; SpiderRocks Vulcano W;2830;1775;0;false
 +; SpiderRocks Vulcano S;3300;2175;0;false
++; Delucia Spiders;5159;3910;1;false
++; Swamp Spiders;6103;3443;1;false
++; Sinister Spiders;5266;3169;1;false
++; Desert Spiders;5709;2515;1;false
++; Ice Spiders;5312;2339;1;false
