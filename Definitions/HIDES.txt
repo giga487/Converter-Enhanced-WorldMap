@@ -8,7 +8,7 @@
 +; LeWorker NW Hides;2765;2250;0;false
 +; Order NE Hides;2265;1305;0;false
 +; Murderer S Hides;3345;1300;0;false
-+; Reptile;5991;34651;false
++; Reptile;5991;3465;1;false
 +; PolarEast;5496;2350;1;false
 +; PolarWest;5165;2336;1;false
 +; Gargoyle;5138;3179;1;false

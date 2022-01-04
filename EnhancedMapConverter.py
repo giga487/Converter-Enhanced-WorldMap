@@ -140,6 +140,7 @@ class FileToRead:
         self.LoadFiles()
 
 
+
     def FindNameGroup(self):
         head, tail = ntpath.split(self.m_pathfile)
         return tail or ntpath.basename(head)

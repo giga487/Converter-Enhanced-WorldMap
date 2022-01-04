@@ -36,7 +36,7 @@
 2300,827,0,  Meridian Fort,DUNGEONSPOT,white,0
 5770,2619,1,  Ophidian,DUNGEONSPOT,white,0
 5447,3132,1,  TerathanKeep,DUNGEONSPOT,white,0
-5214,36421,1,  Goblin,DUNGEONSPOT,white,0
+5214,3642,1,  Goblin,DUNGEONSPOT,white,0
 5730,3203,1,  Papua,DUNGEONSPOT,white,0
 5265,3990,1,  Delucia,DUNGEONSPOT,white,0
 2084,1886,0, ,EXIT,white,0
@@ -102,7 +102,7 @@
 2765,2250,0,  LeWorker NW Hides,HIDES,white,0
 2265,1305,0,  Order NE Hides,HIDES,white,0
 3345,1300,0,  Murderer S Hides,HIDES,white,0
-
+5991,3465,1,  Reptile,HIDES,white,0
 5496,2350,1,  PolarEast,HIDES,white,0
 5165,2336,1,  PolarWest,HIDES,white,0
 5138,3179,1,  Gargoyle,HIDES,white,0
