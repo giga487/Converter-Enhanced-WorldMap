@@ -6,8 +6,8 @@
 +; Est PK Cotton Depo;3545;1141;0;false
 +; N-O Chaos Cotton Depo;3761;1497;0;false
 +; S-E Chaos Cotton Depo;3541;2437;0;false
-+; Delucia Cotton 5256;4018;1;false
-+; Central Cotton 5557;3747;1;false
-+; Papua Cotton 5783;3369;1;false
-+; Orc Cotton 5186;3627;1;false
-+; Arena Cotton 6080;3774;1;false
++; Delucia Cotton ;5256;4018;1;false
++; Central Cotton ;5557;3747;1;false
++; Papua Cotton ;5783;3369;1;false
++; Orc Cotton ;5186;3627;1;false
++; Arena Cotton ;6080;3774;1;false
