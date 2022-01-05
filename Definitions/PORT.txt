@@ -1,4 +1,18 @@
-+; OrderCity Port;1855;1998;0;false
++; OrderCity Port;1855;1898;0;false
 +; ChaosCity Port;4298;2336;0;false
 +; MurdererCity Port;3549;595;0;false
 +; Pryma Port;3013;3850;0;false
++; Ophidian Port;5874;2662;1;false
++; FrostLand Port;5944;2435;1;false
++; FrostLand South Port;6069;2460;1;false
++; Desert East;5874;2662;1;false
++; Desert West;5391;2716;1;false
++; High Sand Port;5171;2479;1;false
++; Low Sand;5171;2626;1;false
++; Treasure Port North;5953;2840;1;false
++; Treasure Port South;5975;2997;1;false
++; Swamp Port;5842;3240;1;false
++; Sinister Port;5246;3106;1;false
++; Crazy Land Port;5198;2936;1;false
++; Ice Port;5360;2389;1;false
+
