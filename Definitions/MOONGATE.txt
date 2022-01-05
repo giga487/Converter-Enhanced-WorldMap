@@ -3,3 +3,4 @@
 +; Entrata LostLand;3056;2499;0;false
 +; Entrata LostLand;3086;2603;0;false
 +; Entrata Uscita Heaven;3647;2595;1;false
++; Tunnel Meridian Uscita;2623;705;0;false
