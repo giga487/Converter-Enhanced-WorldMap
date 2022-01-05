@@ -56,7 +56,8 @@
 6053,3187,1,  Orange Fish,FISH,white,0
 5304,3294,1,  Shiny Fish,FISH,white,0
 5764,3619,1,  AllFishes,FISH,white,0
-5606,3519,1,  Ingresso/Uscita Ice,GATE,white,0
+5606,3519,1, Ingresso/Uscita Ice,GATE,white,0
+5539,2385,1, Ingresso/Uscita Ice,GATE,white,0
 6078,3064,1,  Minera d'Oro,GEM,white,0
 3122,1056,0,  Camp,HEALER,white,0
 3032,3526,0,  Pryma,HEALER,white,0
