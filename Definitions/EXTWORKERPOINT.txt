@@ -1,5 +1,5 @@
-+; Worker Pigrizio;2589;1398;0;false
-+; Worker Order;2444;2291;0;false
-+; Worker Murderer;3485;1419;0;false
-+; Worker Chaos;3492;2309;0;false
-+; Worker Neutral;2852;2839;0;false
++;Worker Pigrizio;2589;1398;0;false
++;External Worker Order;2444;2291;0;false
++;External Worker Murderer;3485;1419;0;false
++;External Worker Chaos;3492;2309;0;false
++;External Worker Neutral;2852;2839;0;false
