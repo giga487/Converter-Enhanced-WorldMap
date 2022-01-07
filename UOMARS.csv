@@ -45,11 +45,11 @@
 3071,3109,0,  Criminal Bank,EXTBANK,white,0
 2323,3208,0,  Exterior Merdian,EXTBANK,white,0
 3049,2534,0,  Le Worker Bank,EXTBANK,white,0
-2589,1398,0,  Worker Pigrizio,EXTWORKERPOINT,white,0
-2444,2291,0,  Worker Order,EXTWORKERPOINT,white,0
-3485,1419,0,  Worker Murderer,EXTWORKERPOINT,white,0
-3492,2309,0,  Worker Chaos,EXTWORKERPOINT,white,0
-2852,2839,0,  Worker Neutral,EXTWORKERPOINT,white,0
+2589,1398,0, Worker Pigrizio,EXTWORKERPOINT,white,0
+2444,2291,0, External Worker Order,EXTWORKERPOINT,white,0
+3485,1419,0, External Worker Murderer,EXTWORKERPOINT,white,0
+3492,2309,0, External Worker Chaos,EXTWORKERPOINT,white,0
+2852,2839,0, External Worker Neutral,EXTWORKERPOINT,white,0
 3280,3100,0,  Neutral Lake,FISH,white,0
 2677,1464,0,  Order River North,FISH,white,0
 4229,1108,0,  Murderer Bay,FISH,white,0
