@@ -1,9 +1,9 @@
 +; HeartWood Swamp East;4021;2657;0;false
 +; HeartWood OrderSouth;2477;2591;0;false
 +; HeartWood Order SwampSouth;2286;2707;0;false
-+; HeartWood NeutralEast;3813;2890;0;false
-+; FrostWoodMurdererEast;2720;1015;0;false
-+; FrostWoodLeWorker;3180;2405;0;false
++; HeartWood Neutral East;3813;2890;0;false
++; FrostWood Murderer East;2720;1015;0;false
++; FrostWood LeWorker;3180;2405;0;false
 +; FrostWood MurdererSouth;4000;1110;0;false
 +; FrostWood OrderNorth;2205;1053;0;false
 +; FrostWood Murderer;3502;1120;0;false
@@ -15,8 +15,8 @@
 +; Oak East;3515;1725;0;false
 +; Oak West;2745;1667;0;false
 +; HeartWood;5994;3414;1;false
-+; FrostWoodEast;5505;2349;1;false
-+; FrostWoodWest;5155;2348;1;false
++; FrostWood East;5505;2349;1;false
++; FrostWood West;5155;2348;1;false
 +; BloodWood;5751;2882;1;false
 +; AshNorth;5148;3721;1;false
 +; AshSouth;5191;3785;1;false
