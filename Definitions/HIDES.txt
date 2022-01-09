@@ -1,5 +1,5 @@
 +; LeWorker West Normal Hides;2666;2620;0;false
-+; Order East Norma lHides;2448;1940;0;false
++; Order East Normal Hides;2448;1940;0;false
 +; Chaos West Normal Hides;3854;2154;0;false
 +; Vulcano NNW Normal Hides;2950;1185;0;false
 +; Murderer W Hides;3583;1287;0;false
