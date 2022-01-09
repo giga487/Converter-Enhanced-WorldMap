@@ -3,6 +3,8 @@
 +; Murderer Bay;4229;1108;0;false
 +; Order NW Bay;1951;1342;0;false
 +; LeWorker North Bay;2880;2213;0;false
++; Order River South;2686;1982;0;false
++; Chaos River South;4165;2387;0;false
 +; Red Salmon;5831;2921;1;false
 +; Azure Fish;5232;3708;1;false
 +; White Fish;5387;2387;1;false
