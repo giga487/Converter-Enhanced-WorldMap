@@ -1,9 +1,9 @@
-+; WoodNeutral NE;3515;3070;0;false
-+; WoodNeutral NW;2500;3035;0;false
-+; WoodOrder SE;2500;2095;0;false
-+; WoodMurderer S;3300;1135;0;false
-+; WoodChaos West;3745;2456;0;false
-+; WoodOrder NE;2315;1505;0;false
++; Wood Neutral NE;3515;3070;0;false
++; Wood Neutral NW;2500;3035;0;false
++; Wood Order SE;2500;2095;0;false
++; Wood Murderer S;3533;1246;0;false
++; Wood Chaos West;3745;2456;0;false
++; Wood Order NE;2315;1505;0;false
 +; Wood Bridge N;2571;1235;0;false
-+; WoodChaos NE;3875;1515;0;false
++; Wood Chaos NE;3875;1515;0;false
 +; Wood Pryma;3048;3198;0;false

@@ -16,9 +16,9 @@
 3085,2653,0,  Le Worker Cotton Depo,COTTON,white,0
 2405,2387,0,  S-E Order Cotton Depo,COTTON,white,0
 2306,1442,0,  N-O Order Cotton Depo,COTTON,white,0
-3023,1192,0,  Ovest PK Cotton Depo,COTTON,white,0
-3545,1141,0,  Est PK Cotton Depo,COTTON,white,0
-3545,1141,0,  Est PK Cotton Depo,COTTON,white,0
+3023,1192,0,  Ovest Murderer Cotton Depo,COTTON,white,0
+3545,1141,0,  Est Murderer Cotton Depo,COTTON,white,0
+3545,1141,0,  Est Murderer Cotton Depo,COTTON,white,0
 3761,1497,0,  N-O Chaos Cotton Depo,COTTON,white,0
 3541,2437,0,  S-E Chaos Cotton Depo,COTTON,white,0
 5256,4018,1,  Delucia Cotton ,COTTON,white,0
@@ -45,11 +45,11 @@
 3071,3109,0,  Criminal Bank,EXTBANK,white,0
 2323,3208,0,  Exterior Merdian,EXTBANK,white,0
 3049,2534,0,  Le Worker Bank,EXTBANK,white,0
-2589,1398,0,  Worker Pigrizio,EXTWORKERPOINT,white,0
-2444,2291,0,  Worker Order,EXTWORKERPOINT,white,0
-3485,1419,0,  Worker Murderer,EXTWORKERPOINT,white,0
-3492,2309,0,  Worker Chaos,EXTWORKERPOINT,white,0
-2852,2839,0,  Worker Neutral,EXTWORKERPOINT,white,0
+2589,1398,0, Worker Pigrizio,EXTWORKERPOINT,white,0
+2444,2291,0, External Worker Order,EXTWORKERPOINT,white,0
+3485,1419,0, External Worker Murderer,EXTWORKERPOINT,white,0
+3492,2309,0, External Worker Chaos,EXTWORKERPOINT,white,0
+2852,2839,0, External Worker Neutral,EXTWORKERPOINT,white,0
 3280,3100,0,  Neutral Lake,FISH,white,0
 2677,1464,0,  Order River North,FISH,white,0
 4229,1108,0,  Murderer Bay,FISH,white,0
@@ -66,45 +66,45 @@
 5606,3519,1, Ingresso/Uscita Ice,GATE,white,0
 5539,2385,1, Ingresso/Uscita Ice,GATE,white,0
 6078,3064,1,  Minera d'Oro,GEM,white,0
-3122,1056,0,  Camp,HEALER,white,0
-3032,3526,0,  Pryma,HEALER,white,0
-3000,3626,0,  Pryma,HEALER,white,0
-2435,2290,0,  Fort Order,HEALER,white,0
-5726,3988,1,  Lost Lands House,HEALER,white,0
-3136,2839,0,  Camp,HEALER,white,0
-3721,1216,0,  Worker PK,HEALER,white,0
-2518,1976,0,  Worker Order,HEALER,white,0
-4152,2192,0,  Chaos City,HEALER,white,0
-2754,3693,0,  Pryma Merchant,HEALER,white,0
-3061,3113,0,  Grey Bank,HEALER,white,0
-2398,660,0,  Camp,HEALER,white,0
-2581,602,0,  Camp,HEALER,white,0
-2327,2317,0,  Near Order Fort,HEALER,white,0
-3751,2283,0,  Worker Point Chaos,HEALER,white,0
-2204,1262,0,  Orc Cove,HEALER,white,0
-2557,692,0,  Camp,HEALER,white,0
-2543,1468,0,  Worker Pigrizio,HEALER,white,0
-2702,1172,0,  Pk Mine Ovest,HEALER,white,0
-3478,1441,0,  Pk Worker,HEALER,white,0
-3125,1248,0,  Pigrizio,HEALER,white,0
-3295,2998,0,  Neutral Fish,HEALER,white,0
-2404,1061,0,  Camp,HEALER,white,0
-2904,2823,0,  Worker Neutral,HEALER,white,0
-1998,1954,0,  Order,HEALER,white,0
-3433,2412,0,  Worker Chaos,HEALER,white,0
-3063,2534,0,  Worker,HEALER,white,0
-2445,592,0,  Camp,HEALER,white,0
-3894,2214,0,  Camp,HEALER,white,0
-3487,3370,0,  Camp,HEALER,white,0
-2295,895,0,  Camp,HEALER,white,0
-2522,769,0,  Camp,HEALER,white,0
-2356,611,0,  Camp,HEALER,white,0
-2349,705,0,  Camp,HEALER,white,0
-2666,2620,0,  LeWorker West NormalHides,HIDES,white,0
-2448,1940,0,  Order East NormalHides,HIDES,white,0
-3854,2154,0,  Chaos West NormalHides,HIDES,white,0
-2950,1185,0,  Vulcano NNW NormalHides,HIDES,white,0
-2810,1285,0,  Murderer W Hides,HIDES,white,0
+3122,1056,0, Healer Camp,HEALER,white,0
+3032,3526,0, Healer Pryma,HEALER,white,0
+3000,3626,0, Healer Pryma,HEALER,white,0
+2435,2290,0, Healer Fort Order,HEALER,white,0
+5726,3988,1, Healer Lost Lands House,HEALER,white,0
+3136,2839,0, Healer Camp,HEALER,white,0
+3721,1216,0, Healer Murderer Worker,HEALER,white,0
+2518,1976,0, Healer Worker Order,HEALER,white,0
+4152,2192,0, Healer Chaos City,HEALER,white,0
+2754,3693,0, Healer Pryma Merchant,HEALER,white,0
+3061,3113,0, Healer Grey Bank,HEALER,white,0
+2398,660,0, Healer Camp,HEALER,white,0
+2581,602,0, Healer Camp,HEALER,white,0
+2327,2317,0, Healer Near Order Fort,HEALER,white,0
+3751,2283,0, Healer Worker Point Chaos,HEALER,white,0
+2204,1262,0, Healer Orc Cove,HEALER,white,0
+2557,692,0, Healer Camp,HEALER,white,0
+2543,1468,0, Healer Worker Pigrizio,HEALER,white,0
+2702,1172,0, Healer Murderer Mine Ovest,HEALER,white,0
+3478,1441,0, Healer Murderer Worker,HEALER,white,0
+3125,1248,0, Healer Pigrizio,HEALER,white,0
+3295,2998,0, Healer Neutral Fish,HEALER,white,0
+2404,1061,0, Healer Camp,HEALER,white,0
+2904,2823,0, Healer Worker Neutral,HEALER,white,0
+1998,1954,0, Healer Order,HEALER,white,0
+3433,2412,0, Healer Worker Chaos,HEALER,white,0
+3063,2534,0, Healer Worker,HEALER,white,0
+2445,592,0, Healer Camp,HEALER,white,0
+3894,2214,0, Healer Camp,HEALER,white,0
+3487,3370,0, Healer Camp,HEALER,white,0
+2295,895,0, Healer Camp,HEALER,white,0
+2522,769,0, Healer Camp,HEALER,white,0
+2356,611,0, Healer Camp,HEALER,white,0
+2349,705,0, Healer Camp,HEALER,white,0
+2666,2620,0,  LeWorker West Normal Hides,HIDES,white,0
+2448,1940,0,  Order East Norma lHides,HIDES,white,0
+3854,2154,0,  Chaos West Normal Hides,HIDES,white,0
+2950,1185,0,  Vulcano NNW Normal Hides,HIDES,white,0
+3583,1287,0,  Murderer W Hides,HIDES,white,0
 2785,2215,0,  Order SE Hides,HIDES,white,0
 3185,2335,0,  LeWorker NE Hides,HIDES,white,0
 2765,2250,0,  LeWorker NW Hides,HIDES,white,0
@@ -136,9 +136,9 @@
 4021,2657,0,  HeartWood Swamp East,LOGS,white,0
 2477,2591,0,  HeartWood OrderSouth,LOGS,white,0
 2286,2707,0,  HeartWood Order SwampSouth,LOGS,white,0
-3813,2890,0,  HeartWood NeutralEast,LOGS,white,0
-2720,1015,0,  FrostWoodMurdererEast,LOGS,white,0
-3180,2405,0,  FrostWoodLeWorker,LOGS,white,0
+3813,2890,0,  HeartWood Neutral East,LOGS,white,0
+2720,1015,0,  FrostWood Murderer East,LOGS,white,0
+3180,2405,0,  FrostWood LeWorker,LOGS,white,0
 4000,1110,0,  FrostWood MurdererSouth,LOGS,white,0
 2205,1053,0,  FrostWood OrderNorth,LOGS,white,0
 3502,1120,0,  FrostWood Murderer,LOGS,white,0
@@ -150,8 +150,8 @@
 3515,1725,0,  Oak East,LOGS,white,0
 2745,1667,0,  Oak West,LOGS,white,0
 5994,3414,1,  HeartWood,LOGS,white,0
-5505,2349,1,  FrostWoodEast,LOGS,white,0
-5155,2348,1,  FrostWoodWest,LOGS,white,0
+5505,2349,1,  FrostWood East,LOGS,white,0
+5155,2348,1,  FrostWood West,LOGS,white,0
 5751,2882,1,  BloodWood,LOGS,white,0
 5148,3721,1,  AshNorth,LOGS,white,0
 5191,3785,1,  AshSouth,LOGS,white,0
@@ -162,8 +162,8 @@
 2725,3771,0,  Pryma Market,MARKET,white,0
 3022,2537,0,  Le Worker,MINER,white,0
 3221,3334,0,  Pryma Mine,MINER,white,0
-3701,1218,0,  PK Mine East,MINER,white,0
-2703,1192,0,  PK Mine Ovest,MINER,white,0
+3701,1218,0,  Murderer Mine East,MINER,white,0
+2703,1192,0,  Murderer Mine Ovest,MINER,white,0
 3736,2289,0,  Chaos Mine,MINER,white,0
 2528,1956,0,  Order Mine,MINER,white,0
 5188,3199,1,  Sinister Mine,MINER,white,0
@@ -175,25 +175,27 @@
 3940,2990,0,  Lizard MiniDungeon,MINIDUNGEON,white,0
 2811,1140,0,  Elemental MiniDungeon,MINIDUNGEON,white,0
 2126,3015,0,  Centaury MiniDungeon,MINIDUNGEON,white,0
-5436,3384,1,  Entrata Uscita LostLand,MOONGATE,white,0
-5594,3197,1,  Entrata Uscita LostLand,MOONGATE,white,0
-3056,2499,0,  Entrata LostLand,MOONGATE,white,0
-3086,2603,0,  Entrata LostLand,MOONGATE,white,0
-3647,2595,1,  Entrata Uscita Heaven,MOONGATE,white,0
-2623,705,0,  Tunnel Meridian Uscita,MOONGATE,white,0
-2666,2620,0,  LeWorker West NormalHides,NORMALHIDES,white,0
-2448,1940,0,  Order East NormalHides,NORMALHIDES,white,0
-3854,2154,0,  Chaos West NormalHides,NORMALHIDES,white,0
-2950,1185,0,  Vulcano NNW NormalHides,NORMALHIDES,white,0
-2989,3135,0,  Pryma NormalHides,NORMALHIDES,white,0
-3515,3070,0,  WoodNeutral NE,NORMALWOOD,white,0
-2500,3035,0,  WoodNeutral NW,NORMALWOOD,white,0
-2500,2095,0,  WoodOrder SE,NORMALWOOD,white,0
-3300,1135,0,  WoodMurderer S,NORMALWOOD,white,0
-3745,2456,0,  WoodChaos West,NORMALWOOD,white,0
-2315,1505,0,  WoodOrder NE,NORMALWOOD,white,0
+5436,3384,1,  Moongate LostLand,MOONGATE,white,0
+5594,3197,1,  Moongate LostLand,MOONGATE,white,0
+3056,2499,0,  Moongate LostLand,MOONGATE,white,0
+3086,2603,0,  Moongate LostLand,MOONGATE,white,0
+3647,2595,1,  Moongate Heaven,MOONGATE,white,0
+2623,705,0,  Moongate Meridian Uscita,MOONGATE,white,0
+2795,1615,0,  Moongate LostLand,MOONGATE,white,0
+5654,3417,1,  Moongate LostLand,MOONGATE,white,0
+2666,2620,0,  LeWorker West Normal Hides,NORMALHIDES,white,0
+2448,1940,0,  Order East Normal Hides,NORMALHIDES,white,0
+3854,2154,0,  Chaos West Normal Hides,NORMALHIDES,white,0
+2950,1185,0,  Vulcano NNW Normal Hides,NORMALHIDES,white,0
+2989,3135,0,  Pryma Normal Hides,NORMALHIDES,white,0
+3515,3070,0,  Wood Neutral NE,NORMALWOOD,white,0
+2500,3035,0,  Wood Neutral NW,NORMALWOOD,white,0
+2500,2095,0,  Wood Order SE,NORMALWOOD,white,0
+3533,1246,0,  Wood Murderer S,NORMALWOOD,white,0
+3745,2456,0,  Wood Chaos West,NORMALWOOD,white,0
+2315,1505,0,  Wood Order NE,NORMALWOOD,white,0
 2571,1235,0,  Wood Bridge N,NORMALWOOD,white,0
-3875,1515,0,  WoodChaos NE,NORMALWOOD,white,0
+3875,1515,0,  Wood Chaos NE,NORMALWOOD,white,0
 3048,3198,0,  Wood Pryma,NORMALWOOD,white,0
 2816,3227,0,  Enigma,OUTPOST,white,0
 3402,1112,0,  Dragon,OUTPOST,white,0
