@@ -3,3 +3,6 @@
 +; Neutral East;3525;3140;0;false
 +; Neutral West;2395;3290;0;false
 +; Order NW;1925;1415;0;false
++; Chaos West;3794;2217;0;false
++; Murderer South;3691;1338;0;false
++; Order EastSouth;3691;1338;0;false
