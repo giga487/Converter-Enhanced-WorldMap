@@ -3,15 +3,20 @@
 +; Chaos West Normal Hides;3854;2154;0;false
 +; Vulcano NNW Normal Hides;2950;1185;0;false
 +; Murderer W Hides;3583;1287;0;false
-+; Order SE Hides;2785;2215;0;false
 +; LeWorker NE Hides;3185;2335;0;false
 +; LeWorker NW Hides;2765;2250;0;false
 +; Order NE Hides;2265;1305;0;false
 +; Murderer S Hides;3345;1300;0;false
++; LeWorker Fire Deposit;2830;2434;0;false
++; LeWorker Reptile;2842,2518;0;false
++; LeWorker Gargoyle;2959,2615;0;false
++; LeWorker Tide Deposit;3207;2507;0;false
++; LeWorker Polar Deposit;3185;2374;0;false
 +; Reptile;5991;3465;1;false
 +; PolarEast;5496;2350;1;false
 +; PolarWest;5165;2336;1;false
 +; Gargoyle;5138;3179;1;false
 +; TideNorth;5174;3710;1;false
 +; TideSouth;5161;3797;1;false
++; Dragon;5716;2944;1;false
 +; Dragon;5716;2944;1;false

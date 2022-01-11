@@ -14,6 +14,12 @@
 +; Ash Lake;3815;1435;0;false
 +; Oak East;3515;1725;0;false
 +; Oak West;2745;1667;0;false
++; LeWorker BloodWood Deposit;2830;2459;0;false
++; LeWorker HeartWood Deposit;2843;2487;0;false
++; LeWorker OakWood Deposit;2995;2649;0;false
++; LeWorker AshWood Deposit;3200;2539;0;false
++; LeWorker FrostWood Deposit;3186;2415;0;false
++; LeWorker AshWood Deposit;3201;2549;0;false
 +; HeartWood;5994;3414;1;false
 +; FrostWood East;5505;2349;1;false
 +; FrostWood West;5155;2348;1;false
