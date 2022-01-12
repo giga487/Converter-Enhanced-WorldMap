@@ -186,6 +186,10 @@ class FileToRead:
 
 applicationPath = os.getcwd()
 folderToAnalyze = "Definitions"
+
+dataPath = os.path.join("ClassicUo", "Data")
+CSVPath = os.path.join(dataPath, "Client")
+MapIconsPath = "MapIcons"
 fileToCreate = "UOMARS.csv"
 
 
@@ -193,7 +197,6 @@ def main():
     logging.basicConfig(filename="appLog.log", filemode='w+', level=logging.WARN)
     print("Welcome to the enhanced map Converter by Giga487")
     pathToAnalyze = os.path.join(applicationPath, folderToAnalyze)
-
 
     if(not os.path.exists(pathToAnalyze)):
         print(f"Cannot analyze the path {pathToAnalyze}")
@@ -206,7 +209,6 @@ def main():
 
         for fileToAnal in fileList:
 
-
             listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
         for listFileToWrite in listFile:
@@ -214,8 +216,13 @@ def main():
 
                 for row in listFileToWrite.GetString():
                     textOnFileToWrite.append(row)
-
-        FileWriter(os.path.join(applicationPath, fileToCreate), textOnFileToWrite)
+        
+        try:
+            os.makedirs(CSVPath)
+            os.makedirs(os.path.join(CSVPath, MapIconsPath))
+        except:
+            print("Dir already exists!")
+        FileWriter(os.path.join(CSVPath,fileToCreate), textOnFileToWrite)
 
     text = input("")
 
