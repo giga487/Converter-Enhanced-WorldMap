@@ -15,6 +15,7 @@ class StringRead:
         self.m_pathfile = _file
         self.m_stringToSave = ""
         self.EncapsuleData()
+        self.IsInError = False
 
     def GetString(self):
         return self.m_stringToSave
@@ -60,7 +61,8 @@ class StringRead:
             print(self.m_stringToSave)
 
         except:
-            print(f"Error on parse string \"{self.m_stringToSplit}\" in file {self.m_pathfile}")
+            print(f"!!!!!!!!!!!!!!!!!!!!!!!!Error on parse string \"{self.m_stringToSplit}\" in file {self.m_pathfile}!!!!!!!!!!!!!!!!!!!!!!")
+            self.IsInError = True
            
 class FileWriter:
 
@@ -184,6 +186,19 @@ class FileToRead:
     
         return m_list
 
+    def GetError(self):
+
+        m_errorList = []
+
+        if(self.m_listLine != []):
+            for line in self.m_listLine:
+
+                if(line.IsInError):
+                    m_errorList.append(line.GetString())
+    
+        return m_errorList
+
+
 applicationPath = os.getcwd()
 folderToAnalyze = "Definitions"
 
@@ -191,7 +206,6 @@ dataPath = os.path.join("ClassicUo", "Data")
 CSVPath = os.path.join(dataPath, "Client")
 MapIconsPath = "MapIcons"
 fileToCreate = "UOMARS.csv"
-
 
 def main():
     logging.basicConfig(filename="appLog.log", filemode='w+', level=logging.WARN)
@@ -212,6 +226,7 @@ def main():
             listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
         for listFileToWrite in listFile:
+
             if(listFileToWrite.GetString() != []):
 
                 for row in listFileToWrite.GetString():
@@ -221,7 +236,8 @@ def main():
             os.makedirs(CSVPath)
             os.makedirs(os.path.join(CSVPath, MapIconsPath))
         except:
-            print("Dir already exists!")
+            print("Directories already exists!")
+
         FileWriter(os.path.join(CSVPath,fileToCreate), textOnFileToWrite)
 
     text = input("")

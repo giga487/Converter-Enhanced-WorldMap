@@ -8,8 +8,8 @@
 +; Order NE Hides;2265;1305;0;false
 +; Murderer S Hides;3345;1300;0;false
 +; LeWorker Fire Deposit;2830;2434;0;false
-+; LeWorker Reptile;2842,2518;0;false
-+; LeWorker Gargoyle;2959,2615;0;false
++; LeWorker Reptile;2842;2518;0;false
++; LeWorker Gargoyle;2959;2615;0;false
 +; LeWorker Tide Deposit;3207;2507;0;false
 +; LeWorker Polar Deposit;3185;2374;0;false
 +; Reptile;5991;3465;1;false
