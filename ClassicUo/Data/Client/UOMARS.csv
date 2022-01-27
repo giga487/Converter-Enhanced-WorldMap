@@ -2,6 +2,13 @@
 4166,2172,0,  Bank ChaosCity,BANK,white,0
 3619,808,0,  Bank MurdererCity,BANK,white,0
 2961,3578,0,  Bank Pryma,BANK,white,0
+2567,1667,0,  Agonia Bank,BANK,white,0
+2728,709,0,  Meridian Bank,BANK,white,0
+3071,3109,0,  Criminal Bank,BANK,white,0
+2323,3208,0,  Nassau Bank,BANK,white,0
+3049,2534,0,  Le Worker Bank,BANK,white,0
+ 4361, 1648,0,  Locanda Gigante Bank,BANK,white,0
+ 3099,1229,0,  Pigrizio Bank,BANK,white,0
 3338,2522,0,  LeWorker East Bridge,BRIDGE,white,0
 2575,2512,0,  LeWorker West Bridge,BRIDGE,white,0
 2733,2018,0,  Central Bridge,BRIDGE,white,0
@@ -40,19 +47,14 @@
 5730,3203,1,  Papua,DUNGEONSPOT,white,0
 5265,3990,1,  Delucia,DUNGEONSPOT,white,0
 2084,1886,0, ,EXIT,white,0
-2567,1667,0,  Agonia,EXTBANK,white,0
-2728,709,0,  Merdian East,EXTBANK,white,0
-3071,3109,0,  Criminal Bank,EXTBANK,white,0
-2323,3208,0,  Exterior Merdian,EXTBANK,white,0
-3049,2534,0,  Le Worker Bank,EXTBANK,white,0
 2589,1398,0, Worker Pigrizio,EXTWORKERPOINT,white,0
 2444,2291,0, External Worker Order,EXTWORKERPOINT,white,0
 3485,1419,0, External Worker Murderer,EXTWORKERPOINT,white,0
 3492,2309,0, External Worker Chaos,EXTWORKERPOINT,white,0
 2852,2839,0, External Worker Neutral,EXTWORKERPOINT,white,0
-6094,3420,1, External Worker Swamp,EXTWORKERPOINT,white,0
+6104,3495,0, External Worker Swamp,EXTWORKERPOINT,white,0
 5508,2324,1, External Worker Ice,EXTWORKERPOINT,white,0
-5138,3641,1, External Worker Ash,EXTWORKERPOINT,white,0
+5125,3706,60, External Worker Ash,EXTWORKERPOINT,white,0
 5137,3209,1, External Worker Sinister,EXTWORKERPOINT,white,0
 5740,2857,1, External Worker Fire,EXTWORKERPOINT,white,0
 3280,3100,0,  Neutral Lake,FISH,white,0
@@ -72,19 +74,15 @@
 5539,2385,1, Ingresso/Uscita Ice,GATE,white,0
 6078,3064,1,  Minera d'Oro,GEM,white,0
 3122,1056,0, Healer Camp,HEALER,white,0
-3032,3526,0, Healer Pryma,HEALER,white,0
 3000,3626,0, Healer Pryma,HEALER,white,0
-2435,2290,0, Healer Fort Order,HEALER,white,0
-5726,3988,1, Healer Lost Lands House,HEALER,white,0
 3136,2839,0, Healer Camp,HEALER,white,0
 3721,1216,0, Healer Murderer Worker,HEALER,white,0
 2518,1976,0, Healer Worker Order,HEALER,white,0
 4152,2192,0, Healer Chaos City,HEALER,white,0
-2754,3693,0, Healer Pryma Merchant,HEALER,white,0
 3061,3113,0, Healer Grey Bank,HEALER,white,0
 2398,660,0, Healer Camp,HEALER,white,0
-
-2327,2317,0, Healer Near Order Fort,HEALER,white,0
+2581,602,0, Healer Camp,HEALER,white,0
+2327,2317,0, Healer Order Fort,HEALER,white,0
 3751,2283,0, Healer Worker Point Chaos,HEALER,white,0
 2557,692,0, Healer Camp,HEALER,white,0
 2543,1468,0, Healer Worker Pigrizio,HEALER,white,0
@@ -105,6 +103,7 @@
 2356,611,0, Healer Camp,HEALER,white,0
 2349,705,0, Healer Camp,HEALER,white,0
 2204,1262,1, Healer Orc Cove,HEALER,white,0
+ 4325, 1593, 0, Healer Locanda Gigante,HEALER,white,0
 2666,2620,0,  LeWorker West Normal Hides,HIDES,white,0
 2448,1940,0,  Order East Normal Hides,HIDES,white,0
 3854,2154,0,  Chaos West Normal Hides,HIDES,white,0
@@ -217,6 +216,23 @@
 3402,1112,0,  Dragon,OUTPOST,white,0
 2404,2134,0,  Order Fort,OUTPOST,white,0
 3915,2429,0,  Chaos Fort,OUTPOST,white,0
+1855,1898,0,  OrderCity Port,PORT,white,0
+4298,2336,0,  ChaosCity Port,PORT,white,0
+3549,595,0,  MurdererCity Port,PORT,white,0
+3013,3850,0,  Pryma Port,PORT,white,0
+5874,2662,1,  Ophidian Port,PORT,white,0
+5944,2435,1,  FrostLand Port,PORT,white,0
+6069,2460,1,  FrostLand South Port,PORT,white,0
+5874,2662,1,  Desert East,PORT,white,0
+5391,2716,1,  Desert West,PORT,white,0
+5171,2479,1,  High Sand Port,PORT,white,0
+5171,2626,1,  Low Sand,PORT,white,0
+5953,2840,1,  Treasure Port North,PORT,white,0
+5975,2997,1,  Treasure Port South,PORT,white,0
+5842,3240,1,  Swamp Port,PORT,white,0
+5246,3106,1,  Sinister Port,PORT,white,0
+5198,2936,1,  Crazy Land Port,PORT,white,0
+5360,2389,1,  Ice Port,PORT,white,0
 2037,1881,0,  OrderCity Prison,PRISON,white,0
 4117,2119,0,  ChaosCity Prison,PRISON,white,0
 3643,838,0,  MurdererCity Prison,PRISON,white,0

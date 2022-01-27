@@ -1,5 +1,0 @@
-+; Agonia;2567;1667;0;false
-+; Merdian East;2728;709;0;false
-+; Criminal Bank;3071;3109;0;false
-+; Exterior Merdian;2323;3208;0;false
-+; Le Worker Bank;3049;2534;0;false

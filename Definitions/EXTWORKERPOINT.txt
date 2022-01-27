@@ -3,8 +3,8 @@
 +;External Worker Murderer;3485;1419;0;false
 +;External Worker Chaos;3492;2309;0;false
 +;External Worker Neutral;2852;2839;0;false
-+;External Worker Swamp;6094;3420;1;false
++;External Worker Swamp;6104;3495;0;false
 +;External Worker Ice;5508;2324;1;false
-+;External Worker Ash;5138;3641;1;false
++;External Worker Ash;5125;3706;60;false
 +;External Worker Sinister;5137;3209;1;false
 +;External Worker Fire;5740;2857;1;false

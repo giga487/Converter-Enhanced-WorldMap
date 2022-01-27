@@ -222,7 +222,7 @@ def main():
         textOnFileToWrite = []
 
         for fileToAnal in fileList:
-
+            
             listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
         for listFileToWrite in listFile:

@@ -1,17 +1,13 @@
 +;Healer Camp;3122;1056;0;false
-+;Healer Pryma;3032;3526;0;false
 +;Healer Pryma;3000;3626;0;false
-+;Healer Fort Order;2435;2290;0;false
-+;Healer Lost Lands House;5726;3988;1;false
 +;Healer Camp;3136;2839;0;false
 +;Healer Murderer Worker;3721;1216;0;false
 +;Healer Worker Order;2518;1976;0;false
 +;Healer Chaos City;4152;2192;0;false
-+;Healer Pryma Merchant;2754;3693;0;false
 +;Healer Grey Bank;3061;3113;0;false
 +;Healer Camp;2398;660;0;false
 +;Healer Camp;2581;602;0;false
-+;Healer Near Order Fort;2327;2317;0;false
++;Healer Order Fort;2327;2317;0;false
 +;Healer Worker Point Chaos;3751;2283;0;false
 +;Healer Camp;2557;692;0;false
 +;Healer Worker Pigrizio;2543;1468;0;false
@@ -32,3 +28,4 @@
 +;Healer Camp;2356;611;0;false
 +;Healer Camp;2349;705;0;false
 +;Healer Orc Cove;2204;1262;1;false
++;Healer Locanda Gigante; 4325; 1593; 0; false 

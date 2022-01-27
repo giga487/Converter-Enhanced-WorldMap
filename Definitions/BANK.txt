@@ -2,3 +2,10 @@
 +; Bank ChaosCity;4166;2172;0;false
 +; Bank MurdererCity;3619;808;0;false
 +; Bank Pryma;2961;3578;0;false
++; Agonia Bank;2567;1667;0;false
++; Meridian Bank;2728;709;0;false
++; Criminal Bank;3071;3109;0;false
++; Nassau Bank;2323;3208;0;false
++; Le Worker Bank;3049;2534;0;false
++; Locanda Gigante Bank; 4361; 1648;0; false 
++; Pigrizio Bank; 3099;1229;0;false
