@@ -13,7 +13,6 @@
 +;Healer Camp;2581;602;0;false
 +;Healer Near Order Fort;2327;2317;0;false
 +;Healer Worker Point Chaos;3751;2283;0;false
-+;Healer Orc Cove;2204;1262;0;false
 +;Healer Camp;2557;692;0;false
 +;Healer Worker Pigrizio;2543;1468;0;false
 +;Healer Murderer Mine Ovest;2702;1172;0;false
@@ -32,3 +31,4 @@
 +;Healer Camp;2522;769;0;false
 +;Healer Camp;2356;611;0;false
 +;Healer Camp;2349;705;0;false
++;Healer Orc Cove;2204;1262;1;false

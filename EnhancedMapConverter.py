@@ -15,6 +15,7 @@ class StringRead:
         self.m_pathfile = _file
         self.m_stringToSave = ""
         self.EncapsuleData()
+        self.IsInError = False
 
     def GetString(self):
         return self.m_stringToSave
@@ -60,7 +61,8 @@ class StringRead:
             print(self.m_stringToSave)
 
         except:
-            print(f"Error on parse string \"{self.m_stringToSplit}\" in file {self.m_pathfile}")
+            print(f"!!!!!!!!!!!!!!!!!!!!!!!!Error on parse string \"{self.m_stringToSplit}\" in file {self.m_pathfile}!!!!!!!!!!!!!!!!!!!!!!")
+            self.IsInError = True
            
 class FileWriter:
 
@@ -184,16 +186,31 @@ class FileToRead:
     
         return m_list
 
+    def GetError(self):
+
+        m_errorList = []
+
+        if(self.m_listLine != []):
+            for line in self.m_listLine:
+
+                if(line.IsInError):
+                    m_errorList.append(line.GetString())
+    
+        return m_errorList
+
+
 applicationPath = os.getcwd()
 folderToAnalyze = "Definitions"
-fileToCreate = "UOMARS.csv"
 
+dataPath = os.path.join("ClassicUo", "Data")
+CSVPath = os.path.join(dataPath, "Client")
+MapIconsPath = "MapIcons"
+fileToCreate = "UOMARS.csv"
 
 def main():
     logging.basicConfig(filename="appLog.log", filemode='w+', level=logging.WARN)
     print("Welcome to the enhanced map Converter by Giga487")
     pathToAnalyze = os.path.join(applicationPath, folderToAnalyze)
-
 
     if(not os.path.exists(pathToAnalyze)):
         print(f"Cannot analyze the path {pathToAnalyze}")
@@ -206,16 +223,22 @@ def main():
 
         for fileToAnal in fileList:
 
-
             listFile.append(FileToRead(os.path.join(pathToAnalyze, fileToAnal)))
 
         for listFileToWrite in listFile:
+
             if(listFileToWrite.GetString() != []):
 
                 for row in listFileToWrite.GetString():
                     textOnFileToWrite.append(row)
+        
+        try:
+            os.makedirs(CSVPath)
+            os.makedirs(os.path.join(CSVPath, MapIconsPath))
+        except:
+            print("Directories already exists!")
 
-        FileWriter(os.path.join(applicationPath, fileToCreate), textOnFileToWrite)
+        FileWriter(os.path.join(CSVPath,fileToCreate), textOnFileToWrite)
 
     text = input("")
 
