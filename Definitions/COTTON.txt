@@ -10,4 +10,3 @@
 +; Central Cotton ;5557;3747;1;false
 +; Papua Cotton ;5783;3369;1;false
 +; Orc Cotton ;5186;3627;1;false
-+; Arena Cotton ;6080;3774;1;false
