@@ -8,7 +8,7 @@
 2323,3208,0,  Nassau Bank,BANK,white,0
 3049,2534,0,  Le Worker Bank,BANK,white,0
  4361, 1648,0,  Locanda Gigante Bank,BANK,white,0
- 3099,1229,0,  Pigrizio Bank,BANK,white,0
+ 3126,1241,0,  Pigrizio Bank,BANK,white,0
 3338,2522,0,  LeWorker East Bridge,BRIDGE,white,0
 2575,2512,0,  LeWorker West Bridge,BRIDGE,white,0
 2733,2018,0,  Central Bridge,BRIDGE,white,0
@@ -32,7 +32,6 @@
 5557,3747,1,  Central Cotton ,COTTON,white,0
 5783,3369,1,  Papua Cotton ,COTTON,white,0
 5186,3627,1,  Orc Cotton ,COTTON,white,0
-6080,3774,1,  Arena Cotton ,COTTON,white,0
 3698,2032,0,  Phantom Castle,DUNGEON,white,0
 3019,2085,0,  Nigmar Cove,DUNGEON,white,0
 3548,1616,0,  Hytloth,DUNGEON,white,0
@@ -52,9 +51,9 @@
 3485,1419,0, External Worker Murderer,EXTWORKERPOINT,white,0
 3492,2309,0, External Worker Chaos,EXTWORKERPOINT,white,0
 2852,2839,0, External Worker Neutral,EXTWORKERPOINT,white,0
-6104,3495,0, External Worker Swamp,EXTWORKERPOINT,white,0
+6104,3495,1, External Worker Swamp,EXTWORKERPOINT,white,0
 5508,2324,1, External Worker Ice,EXTWORKERPOINT,white,0
-5125,3706,60, External Worker Ash,EXTWORKERPOINT,white,0
+5125,3706,1, External Worker Ash,EXTWORKERPOINT,white,0
 5137,3209,1, External Worker Sinister,EXTWORKERPOINT,white,0
 5740,2857,1, External Worker Fire,EXTWORKERPOINT,white,0
 3280,3100,0,  Neutral Lake,FISH,white,0
@@ -88,7 +87,7 @@
 2543,1468,0, Healer Worker Pigrizio,HEALER,white,0
 2702,1172,0, Healer Murderer Mine Ovest,HEALER,white,0
 3478,1441,0, Healer Murderer Worker,HEALER,white,0
-3125,1248,0, Healer Pigrizio,HEALER,white,0
+ 3122,1255,0, Healer Pigrizio,HEALER,white,0
 3295,2998,0, Healer Neutral Fish,HEALER,white,0
 2404,1061,0, Healer Camp,HEALER,white,0
 2904,2823,0, Healer Worker Neutral,HEALER,white,0

@@ -8,4 +8,4 @@
 +; Nassau Bank;2323;3208;0;false
 +; Le Worker Bank;3049;2534;0;false
 +; Locanda Gigante Bank; 4361; 1648;0; false 
-+; Pigrizio Bank; 3099;1229;0;false
++; Pigrizio Bank; 3126;1241;0;false

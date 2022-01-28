@@ -13,7 +13,7 @@
 +;Healer Worker Pigrizio;2543;1468;0;false
 +;Healer Murderer Mine Ovest;2702;1172;0;false
 +;Healer Murderer Worker;3478;1441;0;false
-+;Healer Pigrizio;3125;1248;0;false
++;Healer Pigrizio; 3122;1255;0;false
 +;Healer Neutral Fish;3295;2998;0;false
 +;Healer Camp;2404;1061;0;false
 +;Healer Worker Neutral;2904;2823;0;false
