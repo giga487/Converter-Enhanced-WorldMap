@@ -189,14 +189,15 @@
 3940,2990,0,  Lizard MiniDungeon,MINIDUNGEON,white,0
 2811,1140,0,  Elemental MiniDungeon,MINIDUNGEON,white,0
 2126,3015,0,  Centaury MiniDungeon,MINIDUNGEON,white,0
-5436,3384,1,  Moongate LostLand,MOONGATE,white,0
-5594,3197,1,  Moongate LostLand,MOONGATE,white,0
-3056,2499,0,  Moongate LostLand,MOONGATE,white,0
-3086,2603,0,  Moongate LostLand,MOONGATE,white,0
-3647,2595,1,  Moongate Heaven,MOONGATE,white,0
-2623,705,0,  Moongate Meridian Uscita,MOONGATE,white,0
-2795,1615,0,  Moongate LostLand,MOONGATE,white,0
-5654,3417,1,  Moongate LostLand,MOONGATE,white,0
+5436,3384,1, Moongate LostLand,MOONGATE,white,0
+5594,3197,1, Moongate LostLand,MOONGATE,white,0
+3056,2499,0, Moongate LostLand,MOONGATE,white,0
+3086,2603,0, Moongate LostLand,MOONGATE,white,0
+3647,2595,1, Moongate Heaven,MOONGATE,white,0
+2623,705,0, Moongate Meridian Uscita,MOONGATE,white,0
+2795,1615,0, Moongate LostLand,MOONGATE,white,0
+5654,3417,1, Moongate LostLand,MOONGATE,white,0
+2348,605,0, Entrata Cove,MOONGATE,white,0
 2666,2620,0,  LeWorker West Normal Hides,NORMALHIDES,white,0
 2448,1940,0,  Order East Normal Hides,NORMALHIDES,white,0
 3854,2154,0,  Chaos West Normal Hides,NORMALHIDES,white,0
@@ -236,6 +237,10 @@
 4117,2119,0,  ChaosCity Prison,PRISON,white,0
 3643,838,0,  MurdererCity Prison,PRISON,white,0
 2965,3544,0,  Pryma Prison,PRISON,white,0
+2895,3150,0, Hatchetsup,QUEST,white,0
+3773,2255,0, Scar,QUEST,white,0
+3041,3236,0, Samanta,QUEST,white,0
+2517,1952,0, Scar,QUEST,white,0
 4215,1135,0,  Murderer East,SAND,white,0
 2395,3285,0,  Neutral West,SAND,white,0
 3525,3140,0,  Neutral East,SAND,white,0
