@@ -2,3 +2,4 @@
 +;Scar;3773;2255;0;false
 +;Samanta;3041;3236;0;false
 +;Scar;2517;1952;0;false
++;Dogon;5518;3297;1;false
