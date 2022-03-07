@@ -1,4 +1,5 @@
-+; Enigma;2816;3227;0;false
-+; Dragon;3402;1112;0;false
-+; Order Fort;2404;2134;0;false
-+; Chaos Fort;3915;2429;0;false
++; Enigma Outpost;2816;3227;0;false
++; Dragon Outpost;3402;1112;0;false
++; Edicto Outpost;2404;2134;0;false
++; Confusion Outpost;3915;2429;0;false
++; Druilia Outpost;5722;3991;1;false

@@ -212,10 +212,11 @@
 2571,1235,0,  Wood Bridge N,NORMALWOOD,white,0
 3875,1515,0,  Wood Chaos NE,NORMALWOOD,white,0
 3048,3198,0,  Wood Pryma,NORMALWOOD,white,0
-2816,3227,0,  Enigma,OUTPOST,white,0
-3402,1112,0,  Dragon,OUTPOST,white,0
-2404,2134,0,  Order Fort,OUTPOST,white,0
-3915,2429,0,  Chaos Fort,OUTPOST,white,0
+2816,3227,0,  Enigma Outpost,OUTPOST,white,0
+3402,1112,0,  Dragon Outpost,OUTPOST,white,0
+2404,2134,0,  Edicto Outpost,OUTPOST,white,0
+3915,2429,0,  Confusion Outpost,OUTPOST,white,0
+5722,3991,1,  Druilia Outpost,OUTPOST,white,0
 1855,1898,0,  OrderCity Port,PORT,white,0
 4298,2336,0,  ChaosCity Port,PORT,white,0
 3549,595,0,  MurdererCity Port,PORT,white,0
